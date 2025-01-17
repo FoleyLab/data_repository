@@ -118,7 +118,7 @@
                 -7.0
             ]
         ],
-        "transition_dipoles": []
+        "transition_dipoles": [-5]
     },
     "omega_value": 0.12086,
     "lambda_vector": [
