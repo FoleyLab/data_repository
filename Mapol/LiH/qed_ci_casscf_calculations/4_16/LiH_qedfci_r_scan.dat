@@ -1,0 +1,4258 @@
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:17 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.125604010124     7.016003436600
+         H            0.000000000000     0.000000000000     0.874395989876     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =     19.12948  C =     19.12948 [cm^-1]
+  Rotational constants: A = ************  B = 573487.42707  C = 573487.42707 [MHz]
+  Nuclear repulsion =    1.587531632010000
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 9.6754994724E-03.
+  Reciprocal condition number of the overlap matrix is 2.4839711126E-03.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.72230326181194   -7.72230e+00   0.00000e+00 
+   @RHF iter   1:    -7.87260975116641   -1.50306e-01   7.49955e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.88448087855777   -1.18711e-02   7.27981e-04 DIIS/ADIIS
+   @RHF iter   3:    -7.88468892195234   -2.08043e-04   1.41978e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.88469791095054   -8.98900e-06   1.71868e-05 DIIS
+   @RHF iter   5:    -7.88469814843705   -2.37487e-07   4.03339e-06 DIIS
+   @RHF iter   6:    -7.88469816895049   -2.05134e-08   1.07763e-06 DIIS
+   @RHF iter   7:    -7.88469817045971   -1.50922e-09   6.92256e-08 DIIS
+   @RHF iter   8:    -7.88469817046283   -3.11307e-12   1.22222e-08 DIIS
+   @RHF iter   9:    -7.88469817046297   -1.42109e-13   1.49658e-09 DIIS
+   @RHF iter  10:    -7.88469817046296    7.10543e-15   6.12758e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.432437     2A     -0.321592  
+
+    Virtual:                                                              
+
+       3A      0.007206     4A      0.045567     5A      0.045567  
+       6A      0.084391     7A      0.129960     8A      0.159303  
+       9A      0.159303    10A      0.239647    11A      0.524886  
+      12A      0.594644    13A      0.594644    14A      0.834615  
+      15A      2.866523    16A      4.084955  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.88469817046296
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              1.5875316320100001
+    One-Electron Energy =                 -13.4364017911055278
+    Two-Electron Energy =                   3.9641719886325664
+    Total Energy =                         -7.8846981704629613
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -2.8782806            0.9402974           -1.9379832
+ Magnitude           :                                                    1.9379832
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:17 2025
+Module time:
+	user time   =       0.14 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =       0.14 seconds =       0.00 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000047 seconds to execute 
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -13.4364017920074055
+CQED-RHF One-electron energy      = -13.4258172597504171
+Nuclear repulsion energy          = 1.5875316320100001
+1/2 <d_e>^2                       = 0.0103556240212859
+1/2 d_N^2                         = 0.0011051990190952
+SCF Iteration   1: Energy = -7.8813994913358432   dE = -7.88140E+00   dRMS = 2.03095E-04
+SCF Iteration   2: Energy = -7.8814238065636566   dE = -2.43152E-05   dRMS = 6.06776E-05
+SCF Iteration   3: Energy = -7.8814267275479910   dE = -2.92098E-06   dRMS = 1.45906E-05
+SCF Iteration   4: Energy = -7.8814269091518216   dE = -1.81604E-07   dRMS = 3.33760E-06
+SCF Iteration   5: Energy = -7.8814269180643191   dE = -8.91250E-09   dRMS = 5.22388E-07
+SCF Iteration   6: Energy = -7.8814269182270404   dE = -1.62721E-10   dRMS = 3.48200E-08
+SCF Iteration   7: Energy = -7.8814269182276551   dE = -6.14619E-13   dRMS = 5.79075E-09
+SCF Iteration   8: Energy = -7.8814269182276604   dE = -5.32907E-15   dRMS = 8.30647E-10
+SCF Iteration   9: Energy = -7.8814269182276746   dE = -1.42109E-14   dRMS = 6.02946E-11
+Total time for SCF iterations: 0.006 seconds 
+
+QED-RHF   energy: -7.88142692 hartree
+Psi4  SCF energy: -7.88469817 hartree
+ Completed QED-RHF in 0.24339628219604492 seconds
+ Completed 1HSO Build in 0.00014543533325195312 seconds
+number of MO 16
+ Completed ERI Build in 0.015268087387084961 seconds 
+410.10546875
+410.10546875
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 0.0002522468566894531 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.10710310935974121 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.026977 seconds to execute 
+single_replacement_list took 0.015620 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.033761 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.020588 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.429360924966      -7.881491258649       0.000000000000          false
+   1       0.429147454033      -7.761753284966       0.000000000000          false
+   2       0.434160207703      -7.715580194549       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.021104 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.069872075727      -7.915613161981      -0.000000000000          false
+   1       0.081215135892      -7.797229568262      -0.000000000000          false
+   2       0.130097982475      -7.775648810056       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.028884 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.018176495201      -7.916861005152      -0.000000000000          false
+   1       0.027847519818      -7.799270551796      -0.000000000000          false
+   2       0.042469679515      -7.780575853517      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.026461 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.003891252607      -7.916932783651      -0.000000000000          false
+   1       0.008707680138      -7.799482080657      -0.000000000000          false
+   2       0.011655004750      -7.781015629040       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.031711 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000806340488      -7.916936095014       0.000000000000          false
+   1       0.002372120983      -7.799502509070       0.000000000000          false
+   2       0.003023363042      -7.781048962652      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.033131 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000136370849      -7.916936224325      -0.000000000000          false
+   1       0.000595484710      -7.799503874102      -0.000000000000          false
+   2       0.000764959139      -7.781051266477       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.038335 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000026584543      -7.916936228408       0.000000000000          false
+   1       0.000226271844      -7.799503995822       0.000000000000          false
+   2       0.000279881431      -7.781051470910       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.039736 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005426570      -7.916936228584      -0.000000000000          true
+   1       0.000071196408      -7.799504012899       0.000000000000          false
+   2       0.000088008645      -7.781051496944       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION   9 subspace size  36
+build sigma took 0.039793 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000003420810      -7.916936228589       0.000000000000          true
+   1       0.000015530051      -7.799504014220       0.000000000000          false
+   2       0.000020951325      -7.781051499148       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION  10 subspace size  38
+build sigma took 0.045040 seconds to execute 
+resident      0.433601379395 peak resident      0.438636779785
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000003402161      -7.916936228589       0.000000000000          true
+   1       0.000003442319      -7.799504014279       0.000000000000          true
+   2       0.000004645443      -7.781051499256       0.000000000000          true
+converged
+Complete Davidson in 0.526221 seconds
+410.10546875
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -7.916936228589133 <S^2>= [[3.44392493e-19]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+      0.987418100547       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.041651818219      1089 alpha [0, 10]    beta [0, 10]    0 photon
+     -0.032283219577      1452 alpha [0, 13]    beta [0, 13]    0 photon
+     -0.030937850988      3388 alpha [1, 15]    beta [1, 15]    0 photon
+     -0.030840589074       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.030840588776       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.029422931920       968 alpha [0, 9]    beta [0, 9]    0 photon
+      0.028131462247      1448 alpha [0, 13]    beta [0, 9]    0 photon
+      0.028131462247       972 alpha [0, 9]    beta [0, 13]    0 photon
+      0.026909816502       489 alpha [0, 5]    beta [0, 10]    0 photon
+state 1 energy = -7.799504014279051 <S^2>= [[1.41187013e-15]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+      0.893004632570     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.242539999535       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.242539991107       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.101923399862       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.101923399132       600 alpha [0, 6]    beta [0, 1]    0 photon
+     -0.100061593005     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.100061592519     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.054342600517       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.052479122758       004 alpha [0, 1]    beta [0, 5]    0 photon
+      0.052479121807       480 alpha [0, 5]    beta [0, 1]    0 photon
+state 2 energy = -7.781051499255746 <S^2>= [[2.3875453e-14]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+     -0.545014065851       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.545013997722       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.419879460750     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.198510646618       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.198510642286       600 alpha [0, 6]    beta [0, 1]    0 photon
+     -0.182168113897     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.182168110632     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.122718784530       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.078927856656       961 alpha [0, 9]    beta [0, 2]    0 photon
+      0.078927855860       128 alpha [0, 2]    beta [0, 9]    0 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0       0.000000000000      -0.000000000000      -2.827725906308
+   0 ->    1      -0.000000000000      -0.000000000000       0.376949826800
+   0 ->    2      -0.000000000000      -0.000000000000       0.516696057364
+   1 ->    1      -0.000000000000      -0.000000000000      -2.106385888838
+   1 ->    2      -0.000000000000      -0.000000000000       1.542529704885
+   2 ->    2      -0.000000000000      -0.000000000000       0.196065032438
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:19 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.153516012373     7.016003436600
+         H            0.000000000000     0.000000000000     1.068706209849     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =     12.80569  C =     12.80569 [cm^-1]
+  Rotational constants: A = ************  B = 383904.80655  C = 383904.80655 [MHz]
+  Nuclear repulsion =    1.298889517099091
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 1.7262520843E-02.
+  Reciprocal condition number of the overlap matrix is 4.5244000072E-03.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.71647013091474   -7.71647e+00   0.00000e+00 
+   @RHF iter   1:    -7.94313011714383   -2.26660e-01   7.18470e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.95529390041857   -1.21638e-02   7.85147e-04 DIIS/ADIIS
+   @RHF iter   3:    -7.95558464420922   -2.90744e-04   1.70158e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.95560571396851   -2.10698e-05   4.34620e-05 DIIS
+   @RHF iter   5:    -7.95560792209712   -2.20813e-06   8.87279e-06 DIIS
+   @RHF iter   6:    -7.95560801539333   -9.32962e-08   7.71164e-07 DIIS
+   @RHF iter   7:    -7.95560801601712   -6.23791e-10   4.20299e-08 DIIS
+   @RHF iter   8:    -7.95560801601802   -8.92619e-13   4.70319e-09 DIIS
+   @RHF iter   9:    -7.95560801601803   -1.24345e-14   7.93330e-10 DIIS
+   @RHF iter  10:    -7.95560801601803   -1.77636e-15   3.91535e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.425436     2A     -0.318912  
+
+    Virtual:                                                              
+
+       3A      0.005068     4A      0.044593     5A      0.044593  
+       6A      0.087602     7A      0.125828     8A      0.157056  
+       9A      0.157056    10A      0.239226    11A      0.511794  
+      12A      0.595930    13A      0.595930    14A      0.786867  
+      15A      2.872809    16A      4.020542  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.95560801601803
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              1.2988895170990908
+    One-Electron Energy =                 -13.0202984187240567
+    Two-Electron Energy =                   3.7658008856069363
+    Total Energy =                         -7.9556080160180294
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -3.2186593            1.1492524           -2.0694069
+ Magnitude           :                                                    2.0694069
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:19 2025
+Module time:
+	user time   =       0.56 seconds =       0.01 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      23.38 seconds =       0.39 minutes
+	system time =       3.47 seconds =       0.06 minutes
+	total time  =          2 seconds =       0.03 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000059 seconds to execute 
+   0      -7.916936228589      -7.916936228589      -0.000000000000
+   1      -7.799504014279      -7.799504014279       0.000000000000
+   2      -7.781051499256      -7.781051499256       0.000000000000
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -13.381805516734       3.868137377749      -7.916936228589      -7.916936228589      -0.000000000000
+   1     -13.258732773372       3.771156018185      -7.799504014279      -7.799504014279       0.000000000000
+   2     -12.931828188054       3.542517188848      -7.781051499256      -7.781051499256       0.000000000000
+test average energy
+     -7.832497247375      -7.832497247375
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -13.0202984187061155
+CQED-RHF One-electron energy      = -13.0072929056259099
+Nuclear repulsion energy          = 1.2988895170990908
+1/2 <d_e>^2                       = 0.0129497092800082
+1/2 d_N^2                         = 0.0016509763124756
+SCF Iteration   1: Energy = -7.9519469618855547   dE = -7.95195E+00   dRMS = 2.26681E-04
+SCF Iteration   2: Energy = -7.9519793479067706   dE = -3.23860E-05   dRMS = 7.02921E-05
+SCF Iteration   3: Energy = -7.9519837104736757   dE = -4.36257E-06   dRMS = 1.69411E-05
+SCF Iteration   4: Energy = -7.9519839557221141   dE = -2.45248E-07   dRMS = 3.45998E-06
+SCF Iteration   5: Energy = -7.9519839642630421   dE = -8.54093E-09   dRMS = 4.79482E-07
+SCF Iteration   6: Energy = -7.9519839644217134   dE = -1.58671E-10   dRMS = 4.03028E-08
+SCF Iteration   7: Energy = -7.9519839644225980   dE = -8.84626E-13   dRMS = 5.75882E-09
+SCF Iteration   8: Energy = -7.9519839644226140   dE = -1.59872E-14   dRMS = 5.95842E-10
+SCF Iteration   9: Energy = -7.9519839644225998   dE =  1.42109E-14   dRMS = 8.95166E-11
+Total time for SCF iterations: 0.006 seconds 
+
+QED-RHF   energy: -7.95198396 hartree
+Psi4  SCF energy: -7.95560802 hartree
+ Completed QED-RHF in 0.20055222511291504 seconds
+ Completed 1HSO Build in 0.00014400482177734375 seconds
+number of MO 16
+ Completed ERI Build in 0.015968799591064453 seconds 
+430.859375
+430.859375
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 0.00010371208190917969 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.10006999969482422 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.023197 seconds to execute 
+single_replacement_list took 0.015453 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.036873 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.030092 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.424821858734      -7.952092664809       0.000000000000          false
+   1       0.424550890211      -7.832800297545       0.000000000000          false
+   2       0.429688616124      -7.781532400154       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.033588 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.068604680571      -7.985563460655       0.000000000000          false
+   1       0.080208197889      -7.867683323483       0.000000000000          false
+   2       0.132500420413      -7.841785688190       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.041344 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.016837413212      -7.986691745971      -0.000000000000          false
+   1       0.026377278655      -7.869559577145      -0.000000000000          false
+   2       0.040051780884      -7.846524417434       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.024630 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.003569701805      -7.986753077089       0.000000000000          false
+   1       0.008269880140      -7.869748781868      -0.000000000000          false
+   2       0.011252941796      -7.846917802293      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.030556 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000714902395      -7.986755773917      -0.000000000000          false
+   1       0.002276510991      -7.869766956249      -0.000000000000          false
+   2       0.002886889602      -7.846947985211       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.030740 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000121934303      -7.986755877425       0.000000000000          false
+   1       0.000572071948      -7.869768207586      -0.000000000000          false
+   2       0.000767338528      -7.846950119421       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.036874 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000026891733      -7.986755880923       0.000000000000          false
+   1       0.000231346490      -7.869768330477       0.000000000000          false
+   2       0.000312249096      -7.846950340786       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.040265 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005562798      -7.986755881107       0.000000000000          true
+   1       0.000067641447      -7.869768347942       0.000000000000          false
+   2       0.000091235724      -7.846950372382       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION   9 subspace size  36
+build sigma took 0.039004 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000003285735      -7.986755881112       0.000000000000          true
+   1       0.000013883208      -7.869768349033       0.000000000000          false
+   2       0.000020267426      -7.846950374488       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION  10 subspace size  38
+build sigma took 0.042836 seconds to execute 
+resident      0.446117401123 peak resident      0.520645141602
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000003174335      -7.986755881112       0.000000000000          true
+   1       0.000002626195      -7.869768349078       0.000000000000          true
+   2       0.000003869994      -7.846950374586       0.000000000000          true
+converged
+Complete Davidson in 0.539439 seconds
+430.859375
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -7.986755881112463 <S^2>= [[1.62051719e-16]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+      0.987419250471       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.045021193523      1089 alpha [0, 10]    beta [0, 10]    0 photon
+     -0.036514057638      1452 alpha [0, 13]    beta [0, 13]    0 photon
+     -0.031445803202      3388 alpha [1, 15]    beta [1, 15]    0 photon
+     -0.031397340083       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.031397327884       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.029826182728      1448 alpha [0, 13]    beta [0, 9]    0 photon
+      0.029826182723       972 alpha [0, 9]    beta [0, 13]    0 photon
+     -0.029662332631       968 alpha [0, 9]    beta [0, 9]    0 photon
+      0.028569446345       489 alpha [0, 5]    beta [0, 10]    0 photon
+state 1 energy = -7.869768349077917 <S^2>= [[1.79918575e-16]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+     -0.900523479459     14400 alpha [0, 1]    beta [0, 1]    1 photon
+      0.234746118727       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.234746105475       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.096692373684     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.096692372905     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.086715704045       600 alpha [0, 6]    beta [0, 1]    0 photon
+     -0.086715703254       005 alpha [0, 1]    beta [0, 6]    0 photon
+      0.054157944358       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.051557191911       004 alpha [0, 1]    beta [0, 5]    0 photon
+     -0.051557191450       480 alpha [0, 5]    beta [0, 1]    0 photon
+state 2 energy = -7.846950374585877 <S^2>= [[1.91572807e-14]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+      0.552197576109       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.552197444439       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.403989946260     14400 alpha [0, 1]    beta [0, 1]    1 photon
+      0.192292840652     14401 alpha [0, 1]    beta [0, 2]    1 photon
+      0.192292833368     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.178724838195       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.178724831788       600 alpha [0, 6]    beta [0, 1]    0 photon
+      0.129149775472       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.074932639283       961 alpha [0, 9]    beta [0, 2]    0 photon
+      0.074932637790       128 alpha [0, 2]    beta [0, 9]    0 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0      -0.000000000000       0.000000000000      -3.145733949274
+   0 ->    1       0.000000000000      -0.000000000000      -0.440680098743
+   0 ->    2      -0.000000000000      -0.000000000000      -0.623347493153
+   1 ->    1      -0.000000000000       0.000000000000      -2.468280910762
+   1 ->    2       0.000000000000       0.000000000000       1.555148327590
+   2 ->    2       0.000000000000       0.000000000000       0.061207789749
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:21 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.181428014623     7.016003436600
+         H            0.000000000000     0.000000000000     1.263016429821     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      9.16857  C =      9.16857 [cm^-1]
+  Rotational constants: A = ************  B = 274866.75499  C = 274866.75499 [MHz]
+  Nuclear repulsion =    1.099060360622308
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 2.8142778934E-02.
+  Reciprocal condition number of the overlap matrix is 7.5440024259E-03.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.70886940795165   -7.70887e+00   0.00000e+00 
+   @RHF iter   1:    -7.96764658668402   -2.58777e-01   6.78167e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.98036860314480   -1.27220e-02   8.49010e-04 DIIS/ADIIS
+   @RHF iter   3:    -7.98076781192093   -3.99209e-04   2.07763e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.98080564575986   -3.78338e-05   5.75137e-05 DIIS
+   @RHF iter   5:    -7.98080977331634   -4.12756e-06   9.11391e-06 DIIS
+   @RHF iter   6:    -7.98080986706504   -9.37487e-08   7.58998e-07 DIIS
+   @RHF iter   7:    -7.98080986771530   -6.50262e-10   3.46645e-08 DIIS
+   @RHF iter   8:    -7.98080986771604   -7.38964e-13   4.08080e-09 DIIS
+   @RHF iter   9:    -7.98080986771605   -1.33227e-14   5.88877e-10 DIIS
+   @RHF iter  10:    -7.98080986771606   -7.99361e-15   5.98649e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.437656     2A     -0.309820  
+
+    Virtual:                                                              
+
+       3A      0.001788     4A      0.043127     5A      0.043127  
+       6A      0.089779     7A      0.120040     8A      0.153618  
+       9A      0.153618    10A      0.236254    11A      0.511104  
+      12A      0.590093    13A      0.590093    14A      0.730917  
+      15A      2.847551    16A      3.997914  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.98080986771606
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              1.0990603606223079
+    One-Electron Energy =                 -12.6647890070172178
+    Two-Electron Energy =                   3.5849187786788508
+    Total Energy =                         -7.9808098677160579
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :         -3.5955369            1.3582074           -2.2373295
+ Magnitude           :                                                    2.2373295
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:21 2025
+Module time:
+	user time   =       0.53 seconds =       0.01 minutes
+	system time =       0.05 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      48.06 seconds =       0.80 minutes
+	system time =       7.25 seconds =       0.12 minutes
+	total time  =          4 seconds =       0.07 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000069 seconds to execute 
+   0      -7.986755881112      -7.986755881112      -0.000000000000
+   1      -7.869768349078      -7.869768349078       0.000000000000
+   2      -7.846950374586      -7.846950374586       0.000000000000
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -12.975988186216       3.678799562319      -7.986755881112      -7.986755881112      -0.000000000000
+   1     -12.870892123843       3.598562584901      -7.869768349078      -7.869768349078      -0.000000000000
+   2     -12.538022850587       3.371421449342      -7.846950374586      -7.846950374586       0.000000000000
+test average energy
+     -7.901158201592      -7.901158201592
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -12.6647890065620352
+CQED-RHF One-electron energy      = -12.6487592418875039
+Nuclear repulsion energy          = 1.0990603606223079
+1/2 <d_e>^2                       = 0.0161598568053173
+1/2 d_N^2                         = 0.0023059090645320
+SCF Iteration   1: Energy = -7.9766343288381938   dE = -7.97663E+00   dRMS = 2.55354E-04
+SCF Iteration   2: Energy = -7.9766793828146936   dE = -4.50540E-05   dRMS = 8.19258E-05
+SCF Iteration   3: Energy = -7.9766859109406143   dE = -6.52813E-06   dRMS = 1.96520E-05
+SCF Iteration   4: Energy = -7.9766862450986400   dE = -3.34158E-07   dRMS = 3.48456E-06
+SCF Iteration   5: Energy = -7.9766862533486167   dE = -8.24998E-09   dRMS = 5.67046E-07
+SCF Iteration   6: Energy = -7.9766862536099010   dE = -2.61284E-10   dRMS = 4.77153E-08
+SCF Iteration   7: Energy = -7.9766862536111409   dE = -1.23990E-12   dRMS = 4.37165E-09
+SCF Iteration   8: Energy = -7.9766862536111551   dE = -1.42109E-14   dRMS = 5.77384E-10
+SCF Iteration   9: Energy = -7.9766862536111391   dE =  1.59872E-14   dRMS = 9.19071E-11
+Total time for SCF iterations: 0.006 seconds 
+
+QED-RHF   energy: -7.97668625 hartree
+Psi4  SCF energy: -7.98080987 hartree
+ Completed QED-RHF in 0.19240665435791016 seconds
+ Completed 1HSO Build in 0.0001442432403564453 seconds
+number of MO 16
+ Completed ERI Build in 0.015201807022094727 seconds 
+434.8203125
+434.8203125
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 0.000102996826171875 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.08947634696960449 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.027381 seconds to execute 
+single_replacement_list took 0.015572 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.026558 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.029326 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.421676056848      -7.976858835313       0.000000000000          false
+   1       0.421293590509      -7.858327527225       0.000000000000          false
+   2       0.426014978218      -7.810118055498       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.041377 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.070796211821      -8.010674479242      -0.000000000000          false
+   1       0.088945665695      -7.894348934551      -0.000000000000          false
+   2       0.131887519799      -7.869803984392      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.039995 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.017487858783      -8.011871358032      -0.000000000000          false
+   1       0.029797856533      -7.896691129697      -0.000000000000          false
+   2       0.039119632614      -7.874331893283       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.026607 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.003855524265      -8.011939022490       0.000000000000          false
+   1       0.009331846386      -7.896929087977       0.000000000000          false
+   2       0.011003551003      -7.874707807937      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.042101 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000789089838      -8.011942186595      -0.000000000000          false
+   1       0.002508762569      -7.896951582637       0.000000000000          false
+   2       0.002788084499      -7.874736013747      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.033115 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000138973743      -8.011942314551       0.000000000000          false
+   1       0.000681887080      -7.896953192831       0.000000000000          false
+   2       0.000698853928      -7.874737872450       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.038473 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000032209436      -8.011942319317      -0.000000000000          false
+   1       0.000263484009      -7.896953368208      -0.000000000000          false
+   2       0.000276440759      -7.874738049990       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.039825 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000006638012      -8.011942319567       0.000000000000          true
+   1       0.000068831960      -7.896953388135       0.000000000000          false
+   2       0.000080836839      -7.874738073489       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION   9 subspace size  36
+build sigma took 0.039835 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000003374283      -8.011942319576       0.000000000000          true
+   1       0.000015743201      -7.896953389342       0.000000000000          false
+   2       0.000021969733      -7.874738075340       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION  10 subspace size  38
+build sigma took 0.045018 seconds to execute 
+resident      0.447620391846 peak resident      0.527004241943
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000003339669      -8.011942319576       0.000000000000          true
+   1       0.000003076490      -7.896953389400       0.000000000000          true
+   2       0.000004703315      -7.874738075464       0.000000000000          true
+converged
+Complete Davidson in 0.552620 seconds
+434.8203125
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -8.011942319576459 <S^2>= [[1.39295049e-17]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+      0.985966030880       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.042174044797      1089 alpha [0, 10]    beta [0, 10]    0 photon
+     -0.042057267970      1452 alpha [0, 13]    beta [0, 13]    0 photon
+     -0.036585279409       968 alpha [0, 9]    beta [0, 9]    0 photon
+      0.034938816120       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.034938812401       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.033513684303      1448 alpha [0, 13]    beta [0, 9]    0 photon
+      0.033513684302       972 alpha [0, 9]    beta [0, 13]    0 photon
+     -0.031567955936      3388 alpha [1, 15]    beta [1, 15]    0 photon
+      0.027697887297       132 alpha [0, 2]    beta [0, 13]    0 photon
+state 1 energy = -7.8969533893995445 <S^2>= [[4.32663377e-17]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+      0.845803753553     14400 alpha [0, 1]    beta [0, 1]    1 photon
+      0.298904478149       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.298904471830       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.120225651926     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.120225651615     14401 alpha [0, 1]    beta [0, 2]    1 photon
+      0.092421973724       600 alpha [0, 6]    beta [0, 1]    0 photon
+      0.092421973452       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.072804669631       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.059736565811       480 alpha [0, 5]    beta [0, 1]    0 photon
+     -0.059736565706       004 alpha [0, 1]    beta [0, 5]    0 photon
+state 2 energy = -7.874738075464368 <S^2>= [[2.14544494e-14]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+     -0.521650233622       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.521650087639       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.506335675113     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.186459902829     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.186459894929     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.147616133798       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.147616127298       600 alpha [0, 6]    beta [0, 1]    0 photon
+      0.129471680884       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.072287210269      1441 alpha [0, 13]    beta [0, 2]    0 photon
+     -0.072287208688       132 alpha [0, 2]    beta [0, 13]    0 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0       0.000000000000      -0.000000000000      -3.487549136146
+   0 ->    1       0.000000000000      -0.000000000000       0.603609160765
+   0 ->    2      -0.000000000000      -0.000000000000      -0.660371723057
+   1 ->    1       0.000000000000      -0.000000000000      -2.401237396600
+   1 ->    2      -0.000000000000      -0.000000000000      -1.867126921206
+   2 ->    2       0.000000000000       0.000000000000      -0.581445913258
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:23 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.209340016873     7.016003436600
+         H            0.000000000000     0.000000000000     1.457326649794     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      6.88661  C =      6.88661 [cm^-1]
+  Rotational constants: A = ************  B = 206455.47375  C = 206455.47375 [MHz]
+  Nuclear repulsion =    0.952518979206000
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 4.0741969695E-02.
+  Reciprocal condition number of the overlap matrix is 1.1196696758E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.70220589797693   -7.70221e+00   0.00000e+00 
+   @RHF iter   1:    -7.96984394477567   -2.67638e-01   6.48665e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.98365691296462   -1.38130e-02   9.00354e-04 DIIS/ADIIS
+   @RHF iter   3:    -7.98416902611410   -5.12113e-04   2.39011e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.98422405326395   -5.50271e-05   6.61624e-05 DIIS
+   @RHF iter   5:    -7.98422989081816   -5.83755e-06   9.68382e-06 DIIS
+   @RHF iter   6:    -7.98422999684295   -1.06025e-07   8.06667e-07 DIIS
+   @RHF iter   7:    -7.98422999766337   -8.20419e-10   3.86834e-08 DIIS
+   @RHF iter   8:    -7.98422999766456   -1.19549e-12   5.89026e-09 DIIS
+   @RHF iter   9:    -7.98422999766459   -2.57572e-14   6.67516e-10 DIIS
+   @RHF iter  10:    -7.98422999766460   -7.99361e-15   9.07893e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.456195     2A     -0.298230  
+
+    Virtual:                                                              
+
+       3A     -0.002269     4A      0.041284     5A      0.041284  
+       6A      0.091196     7A      0.114652     8A      0.149571  
+       9A      0.149571    10A      0.227637    11A      0.521289  
+      12A      0.580501    13A      0.580501    14A      0.674140  
+      15A      2.828481    16A      3.968393  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.98422999766460
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.9525189792060001
+    One-Electron Energy =                 -12.3646486707012890
+    Two-Electron Energy =                   3.4278996938306943
+    Total Energy =                         -7.9842299976645954
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -4.0022713            1.5671623           -2.4351089
+ Magnitude           :                                                    2.4351089
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:23 2025
+Module time:
+	user time   =       0.58 seconds =       0.01 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      73.79 seconds =       1.23 minutes
+	system time =      11.04 seconds =       0.18 minutes
+	total time  =          6 seconds =       0.10 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000039 seconds to execute 
+   0      -8.011942319576      -8.011942319576       0.000000000000
+   1      -7.896953389400      -7.896953389400      -0.000000000000
+   2      -7.874738075464      -7.874738075464       0.000000000000
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -12.630017105723       3.504540891216      -8.011942319576      -8.011942319576       0.000000000000
+   1     -12.488027315789       3.400737545221      -7.896953389400      -7.896953389400      -0.000000000000
+   2     -12.279618087366       3.268306908741      -7.874738075464      -7.874738075464       0.000000000000
+test average energy
+     -7.927877928147      -7.927877928147
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -12.3646486703169032
+CQED-RHF One-electron energy      = -12.3450023909211435
+Nuclear repulsion energy          = 0.9525189792060001
+1/2 <d_e>^2                       = 0.0200227191295123
+1/2 d_N^2                         = 0.0030699972752645
+SCF Iteration   1: Energy = -7.9794317346381769   dE = -7.97943E+00   dRMS = 2.89366E-04
+SCF Iteration   2: Energy = -7.9794957600803729   dE = -6.40254E-05   dRMS = 9.54635E-05
+SCF Iteration   3: Energy = -7.9795054637748644   dE = -9.70369E-06   dRMS = 2.31943E-05
+SCF Iteration   4: Energy = -7.9795059467716181   dE = -4.82997E-07   dRMS = 3.61918E-06
+SCF Iteration   5: Energy = -7.9795059552497181   dE = -8.47810E-09   dRMS = 6.86279E-07
+SCF Iteration   6: Energy = -7.9795059556528551   dE = -4.03137E-10   dRMS = 5.06163E-08
+SCF Iteration   7: Energy = -7.9795059556540755   dE = -1.22036E-12   dRMS = 3.78094E-09
+SCF Iteration   8: Energy = -7.9795059556540844   dE = -8.88178E-15   dRMS = 6.33858E-10
+SCF Iteration   9: Energy = -7.9795059556540986   dE = -1.42109E-14   dRMS = 7.72210E-11
+Total time for SCF iterations: 0.006 seconds 
+
+QED-RHF   energy: -7.97950596 hartree
+Psi4  SCF energy: -7.98423000 hartree
+ Completed QED-RHF in 0.19280624389648438 seconds
+ Completed 1HSO Build in 0.00014257431030273438 seconds
+number of MO 16
+ Completed ERI Build in 0.01515650749206543 seconds 
+433.14453125
+433.14453125
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 0.00010251998901367188 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.08011198043823242 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.021644 seconds to execute 
+single_replacement_list took 0.015816 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.019930 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.027614 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.419487740175      -7.979766691008       0.000000000000          false
+   1       0.418994077118      -7.862374905973       0.000000000000          false
+   2       0.423235555779      -7.820457669652       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.031518 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.075478103131      -8.014568669121       0.000000000000          false
+   1       0.107181895648      -7.901385625492      -0.000000000000          false
+   2       0.126715154104      -7.878810605163      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.047588 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.019918944648      -8.015999619944       0.000000000000          false
+   1       0.037250856640      -7.904919390158       0.000000000000          false
+   2       0.037755394699      -7.882887824404      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.025612 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.004673153579      -8.016090938403      -0.000000000000          false
+   1       0.011048623884      -7.905271284707      -0.000000000000          false
+   2       0.010461222263      -7.883238657128       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.030847 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.001021240633      -8.016095778029       0.000000000000          false
+   1       0.002845507763      -7.905301758789       0.000000000000          false
+   2       0.002608673999      -7.883263500510      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.031905 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000194049469      -8.016095998654       0.000000000000          false
+   1       0.000846536401      -7.905303951262      -0.000000000000          false
+   2       0.000610524063      -7.883264981047       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.037040 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000045417751      -8.016096008497       0.000000000000          false
+   1       0.000278194729      -7.905304211370       0.000000000000          false
+   2       0.000196342321      -7.883265094647       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.038613 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000008713671      -8.016096008962       0.000000000000          true
+   1       0.000067331643      -7.905304231667       0.000000000000          false
+   2       0.000050559078      -7.883265105255       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION   9 subspace size  36
+build sigma took 0.040080 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000004903040      -8.016096008978       0.000000000000          true
+   1       0.000015981193      -7.905304232953       0.000000000000          false
+   2       0.000015786653      -7.883265106084       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION  10 subspace size  38
+build sigma took 0.043291 seconds to execute 
+resident      0.446208953857 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000004919875      -8.016096008978       0.000000000000          true
+   1       0.000003503989      -7.905304233018       0.000000000000          true
+   2       0.000005213196      -7.883265106156       0.000000000007          true
+converged
+Complete Davidson in 0.521790 seconds
+433.14453125
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -8.016096008977804 <S^2>= [[7.40022028e-16]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+     -0.983002876454       000 alpha [0, 1]    beta [0, 1]    0 photon
+      0.047613857018      1452 alpha [0, 13]    beta [0, 13]    0 photon
+      0.047261258568       968 alpha [0, 9]    beta [0, 9]    0 photon
+      0.041559556276       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.041559529145       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.037305342928      1448 alpha [0, 13]    beta [0, 9]    0 photon
+      0.037305342920       972 alpha [0, 9]    beta [0, 13]    0 photon
+      0.034872821616      1089 alpha [0, 10]    beta [0, 10]    0 photon
+      0.032778324462       132 alpha [0, 2]    beta [0, 13]    0 photon
+      0.032778324172      1441 alpha [0, 13]    beta [0, 2]    0 photon
+state 1 energy = -7.905304233018442 <S^2>= [[1.15163533e-13]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+      0.722880260137     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.398438203641       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.398437867199       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.158628360619     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.158628329972     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.104196004211       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.102679771325       600 alpha [0, 6]    beta [0, 1]    0 photon
+      0.102679748179       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.074192421130       004 alpha [0, 1]    beta [0, 5]    0 photon
+     -0.074192417238       480 alpha [0, 5]    beta [0, 1]    0 photon
+state 2 energy = -7.8832651061563235 <S^2>= [[7.48010328e-12]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+      0.666574404122     14400 alpha [0, 1]    beta [0, 1]    1 photon
+      0.448810162149       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.448807435228       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.162766993968     14401 alpha [0, 1]    beta [0, 2]    1 photon
+      0.162766848930     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.120141816517       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.107826144266       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.107826036666       600 alpha [0, 6]    beta [0, 1]    0 photon
+      0.068441747978      1441 alpha [0, 13]    beta [0, 2]    0 photon
+      0.068441717959       132 alpha [0, 2]    beta [0, 13]    0 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0      -0.000000000000       0.000000000000      -3.839859825174
+   0 ->    1      -0.000000000000      -0.000000000000      -0.846850966203
+   0 ->    2      -0.000000000000      -0.000000000000       0.600142227734
+   1 ->    1       0.000000000000       0.000000000000      -1.925308157715
+   1 ->    2      -0.000000000000      -0.000000000000      -2.133636420101
+   2 ->    2      -0.000000000000      -0.000000000000      -1.703087159386
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:25 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.237252019123     7.016003436600
+         H            0.000000000000     0.000000000000     1.651636869766     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      5.36155  C =      5.36155 [cm^-1]
+  Rotational constants: A = ************  B = 160735.23043  C = 160735.23043 [MHz]
+  Nuclear repulsion =    0.840457922828824
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 5.2347905818E-02.
+  Reciprocal condition number of the overlap matrix is 1.4781217606E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.69678568098353   -7.69679e+00   0.00000e+00 
+   @RHF iter   1:    -7.96130528236616   -2.64520e-01   6.32918e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.97673807420966   -1.54328e-02   9.41938e-04 DIIS/ADIIS
+   @RHF iter   3:    -7.97736150177555   -6.23428e-04   2.66508e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.97743415295423   -7.26512e-05   7.33615e-05 DIIS
+   @RHF iter   5:    -7.97744188479598   -7.73184e-06   1.08065e-05 DIIS
+   @RHF iter   6:    -7.97744202121776   -1.36422e-07   9.46538e-07 DIIS
+   @RHF iter   7:    -7.97744202246040   -1.24264e-09   5.24490e-08 DIIS
+   @RHF iter   8:    -7.97744202246271   -2.31282e-12   7.78094e-09 DIIS
+   @RHF iter   9:    -7.97744202246276   -5.41789e-14   9.20239e-10 DIIS
+   @RHF iter  10:    -7.97744202246276    8.88178e-16   1.59270e-10 DIIS
+   @RHF iter  11:    -7.97744202246277   -7.10543e-15   1.19630e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.476164     2A     -0.286064  
+
+    Virtual:                                                              
+
+       3A     -0.006877     4A      0.039115     5A      0.039115  
+       6A      0.091638     7A      0.110116     8A      0.145099  
+       9A      0.145099    10A      0.214707    11A      0.538954  
+      12A      0.569209    13A      0.569209    14A      0.624783  
+      15A      2.806737    16A      3.946974  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.97744202246277
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.8404579228288236
+    One-Electron Energy =                 -12.1113434017802941
+    Two-Electron Energy =                   3.2934434564887010
+    Total Energy =                         -7.9774420224627693
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :         -4.4332857            1.7761173           -2.6571684
+ Magnitude           :                                                    2.6571684
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:25 2025
+Module time:
+	user time   =       0.64 seconds =       0.01 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =      99.22 seconds =       1.65 minutes
+	system time =      14.67 seconds =       0.24 minutes
+	total time  =          8 seconds =       0.13 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000053 seconds to execute 
+   0      -8.016096008978      -8.016096008978       0.000000000000
+   1      -7.905304233018      -7.905304233019       0.000000000000
+   2      -7.883265106156      -7.883265106160       0.000000000003
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -12.339288529462       3.352637907073      -8.016096008978      -8.016096008978       0.000000000000
+   1     -12.129163054762       3.205780044323      -7.905304233018      -7.905304233019       0.000000000000
+   2     -12.111361453856       3.206693445964      -7.883265106156      -7.883265106160       0.000000000003
+test average energy
+     -7.934888449385      -7.934888449384
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -12.1113434019202693
+CQED-RHF One-electron energy      = -12.0874865022018234
+Nuclear repulsion energy          = 0.8404579228288236
+1/2 <d_e>^2                       = 0.0245675279448115
+1/2 d_N^2                         = 0.0039432409446731
+SCF Iteration   1: Energy = -7.9719319677436076   dE = -7.97193E+00   dRMS = 3.30385E-04
+SCF Iteration   2: Energy = -7.9720246387389491   dE = -9.26710E-05   dRMS = 1.11671E-04
+SCF Iteration   3: Energy = -7.9720390025075485   dE = -1.43638E-05   dRMS = 2.77676E-05
+SCF Iteration   4: Energy = -7.9720397322939665   dE = -7.29786E-07   dRMS = 3.89814E-06
+SCF Iteration   5: Energy = -7.9720397416162374   dE = -9.32227E-09   dRMS = 7.50335E-07
+SCF Iteration   6: Energy = -7.9720397421120293   dE = -4.95792E-10   dRMS = 5.17869E-08
+SCF Iteration   7: Energy = -7.9720397421130844   dE = -1.05516E-12   dRMS = 3.75062E-09
+SCF Iteration   8: Energy = -7.9720397421130738   dE =  1.06581E-14   dRMS = 7.31726E-10
+SCF Iteration   9: Energy = -7.9720397421130809   dE = -7.10543E-15   dRMS = 6.62275E-11
+Total time for SCF iterations: 0.006 seconds 
+
+QED-RHF   energy: -7.97203974 hartree
+Psi4  SCF energy: -7.97744202 hartree
+ Completed QED-RHF in 0.19670772552490234 seconds
+ Completed 1HSO Build in 0.00013685226440429688 seconds
+number of MO 16
+ Completed ERI Build in 0.015183448791503906 seconds 
+437.0
+437.0
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 9.965896606445312e-05 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.10226559638977051 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.026999 seconds to execute 
+single_replacement_list took 0.015581 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.025395 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.025265 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.417992774698      -7.972417528721       0.000000000000          false
+   1       0.417484640299      -7.856714263309       0.000000000000          false
+   2       0.421325009079      -7.821552547082       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.025461 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.082043760359      -8.008691721594      -0.000000000000          false
+   1       0.129569103799      -7.901137264523      -0.000000000000          false
+   2       0.115523384693      -7.877278412763      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.031302 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.023624044380      -8.010494602466       0.000000000000          false
+   1       0.045285113906      -7.906306231042       0.000000000000          false
+   2       0.035853642722      -7.880694947390       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.033289 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.005983963546      -8.010629508146      -0.000000000000          false
+   1       0.012465846677      -7.906792325608       0.000000000000          false
+   2       0.010486084923      -7.881025655244       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.031749 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.001404428685      -8.010637590684      -0.000000000000          false
+   1       0.003140992891      -7.906828965158       0.000000000000          false
+   2       0.002882252410      -7.881050588337       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.031973 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000290526485      -8.010638026702      -0.000000000000          false
+   1       0.000987545727      -7.906831728814       0.000000000000          false
+   2       0.000677368112      -7.881052441550       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.038322 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000062838553      -8.010638048051      -0.000000000000          false
+   1       0.000260627125      -7.906832037782       0.000000000000          false
+   2       0.000148811195      -7.881052546190       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.038554 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000012063555      -8.010638048962       0.000000000000          false
+   1       0.000074537107      -7.906832057648       0.000000000000          false
+   2       0.000038333455      -7.881052552324       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   9 subspace size  37
+build sigma took 0.044914 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000002384549      -8.010638048997       0.000000000000          true
+   1       0.000020843912      -7.906832059460       0.000000000000          false
+   2       0.000012847142      -7.881052552821       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION  10 subspace size  39
+build sigma took 0.045087 seconds to execute 
+resident      0.447986602783 peak resident      0.527053833008
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000001755100      -8.010638048997       0.000000000000          true
+   1       0.000004524488      -7.906832059573       0.000000000000          true
+   2       0.000004429334      -7.881052552888       0.000000000000          true
+converged
+Complete Davidson in 0.506963 seconds
+437.0
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -8.010638048997455 <S^2>= [[9.83619857e-17]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+     -0.978102429728       000 alpha [0, 1]    beta [0, 1]    0 photon
+      0.058767188316       968 alpha [0, 9]    beta [0, 9]    0 photon
+      0.054800447571      1452 alpha [0, 13]    beta [0, 13]    0 photon
+     -0.051741974654       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.051741974619       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.039848931851       972 alpha [0, 9]    beta [0, 13]    0 photon
+     -0.039848931849      1448 alpha [0, 13]    beta [0, 9]    0 photon
+      0.039494945162       132 alpha [0, 2]    beta [0, 13]    0 photon
+      0.039494945161      1441 alpha [0, 13]    beta [0, 2]    0 photon
+     -0.037089811321       961 alpha [0, 9]    beta [0, 2]    0 photon
+state 1 energy = -7.906832059573351 <S^2>= [[4.9348568e-17]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+     -0.563635994922     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.481432898577       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.481432895166       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.192508524392     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.192508524273     14401 alpha [0, 1]    beta [0, 2]    1 photon
+      0.136341931632       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.106678221365       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.100937792324       600 alpha [0, 6]    beta [0, 1]    0 photon
+     -0.100937791639       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.090022955099       480 alpha [0, 5]    beta [0, 1]    0 photon
+state 2 energy = -7.881052552888287 <S^2>= [[1.50649424e-14]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+      0.800889345945     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.352797361942       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.352797359769       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.128215770491     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.128215770402     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.103187912904       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.066417654447       600 alpha [0, 6]    beta [0, 1]    0 photon
+     -0.066417654334       005 alpha [0, 1]    beta [0, 6]    0 photon
+      0.060485256704      1441 alpha [0, 13]    beta [0, 2]    0 photon
+      0.060485256677       132 alpha [0, 2]    beta [0, 13]    0 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0       0.000000000000       0.000000000000      -4.189260836779
+   0 ->    1       0.000000000000      -0.000000000000       1.106606234467
+   0 ->    2      -0.000000000000      -0.000000000000       0.462792992069
+   1 ->    1       0.000000000000      -0.000000000000      -1.406617165744
+   1 ->    2       0.000000000000      -0.000000000000       2.042297094342
+   2 ->    2      -0.000000000000      -0.000000000000      -2.929446310509
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:27 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.265164021372     7.016003436600
+         H            0.000000000000     0.000000000000     1.845947089739     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      4.29221  C =      4.29221 [cm^-1]
+  Rotational constants: A = ************  B = 128677.23433  C = 128677.23433 [MHz]
+  Nuclear repulsion =    0.751988667794210
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 6.0765878155E-02.
+  Reciprocal condition number of the overlap matrix is 1.7661053436E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.69235639755274   -7.69236e+00   0.00000e+00 
+   @RHF iter   1:    -7.94784314981745   -2.55487e-01   6.27810e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.96532642603286   -1.74833e-02   9.78977e-04 DIIS/ADIIS
+   @RHF iter   3:    -7.96605982325341   -7.33397e-04   2.93597e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.96615152548687   -9.17022e-05   8.00289e-05 DIIS
+   @RHF iter   5:    -7.96616145947026   -9.93398e-06   1.25187e-05 DIIS
+   @RHF iter   6:    -7.96616165416965   -1.94699e-07   1.17809e-06 DIIS
+   @RHF iter   7:    -7.96616165627302   -2.10337e-09   7.18834e-08 DIIS
+   @RHF iter   8:    -7.96616165627763   -4.61320e-12   1.01946e-08 DIIS
+   @RHF iter   9:    -7.96616165627773   -9.50351e-14   1.39021e-09 DIIS
+   @RHF iter  10:    -7.96616165627773   -7.10543e-15   2.51245e-10 DIIS
+   @RHF iter  11:    -7.96616165627773    9.76996e-15   9.06808e-12 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.495522     2A     -0.274183  
+
+    Virtual:                                                              
+
+       3A     -0.011838     4A      0.036666     5A      0.036666  
+       6A      0.090477     7A      0.106924     8A      0.140336  
+       9A      0.140336    10A      0.199498    11A      0.554646  
+      12A      0.557531    13A      0.557531    14A      0.591950  
+      15A      2.784549    16A      3.930863  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.96616165627773
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.7519886677942105
+    One-Electron Energy =                 -11.8968901273543182
+    Two-Electron Energy =                   3.1787398032823835
+    Total Energy =                         -7.9661616562777251
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -4.8821420            1.9850723           -2.8970697
+ Magnitude           :                                                    2.8970697
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:28 2025
+Module time:
+	user time   =       0.53 seconds =       0.01 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =     123.23 seconds =       2.05 minutes
+	system time =      18.05 seconds =       0.30 minutes
+	total time  =         11 seconds =       0.18 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000059 seconds to execute 
+   0      -8.010638048997      -8.010638048997      -0.000000000000
+   1      -7.906832059573      -7.906832059573       0.000000000000
+   2      -7.881052552888      -7.881052552888       0.000000000000
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -12.095689726540       3.222335260779      -8.010638048997      -8.010638048997       0.000000000000
+   1     -11.833809197518       3.046730842957      -7.906832059573      -7.906832059573       0.000000000000
+   2     -11.971464386007       3.148319545471      -7.881052552888      -7.881052552888       0.000000000000
+test average energy
+     -7.932840887153      -7.932840887153
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -11.8968901273849053
+CQED-RHF One-electron energy      = -11.8682342922174033
+Nuclear repulsion energy          = 0.7519886677942105
+1/2 <d_e>^2                       = 0.0297941376904317
+1/2 d_N^2                         = 0.0049256400727578
+SCF Iteration   1: Energy = -7.9598577448786418   dE = -7.95986E+00   dRMS = 3.80555E-04
+SCF Iteration   2: Energy = -7.9599938823312648   dE = -1.36137E-04   dRMS = 1.31433E-04
+SCF Iteration   3: Energy = -7.9600150308485045   dE = -2.11485E-05   dRMS = 3.34519E-05
+SCF Iteration   4: Energy = -7.9600161518106649   dE = -1.12096E-06   dRMS = 4.35820E-06
+SCF Iteration   5: Energy = -7.9600161629341422   dE = -1.11235E-08   dRMS = 7.79896E-07
+SCF Iteration   6: Energy = -7.9600161634859710   dE = -5.51829E-10   dRMS = 5.84734E-08
+SCF Iteration   7: Energy = -7.9600161634873690   dE = -1.39799E-12   dRMS = 3.82295E-09
+SCF Iteration   8: Energy = -7.9600161634873761   dE = -7.10543E-15   dRMS = 8.56273E-10
+SCF Iteration   9: Energy = -7.9600161634873796   dE = -3.55271E-15   dRMS = 6.75189E-11
+Total time for SCF iterations: 0.006 seconds 
+
+QED-RHF   energy: -7.96001616 hartree
+Psi4  SCF energy: -7.96616166 hartree
+ Completed QED-RHF in 0.19848394393920898 seconds
+ Completed 1HSO Build in 0.0001423358917236328 seconds
+number of MO 16
+ Completed ERI Build in 0.015384435653686523 seconds 
+432.796875
+432.796875
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 0.00010418891906738281 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.10256099700927734 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.026606 seconds to execute 
+single_replacement_list took 0.015581 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.031615 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.022559 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.417005341260      -7.960543842346       0.000000000000          false
+   1       0.416748097863      -7.847372240955       0.000000000000          false
+   2       0.419979751549      -7.817647971360       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.032523 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.089568984985      -7.998752492047      -0.000000000000          false
+   1       0.145559696729      -7.899350819330       0.000000000000          false
+   2       0.105138249521      -7.869932818575       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.033154 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.027887758706      -8.001028353956      -0.000000000000          false
+   1       0.049254790448      -7.905662806763       0.000000000000          false
+   2       0.035647004358      -7.872962808286       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.030076 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.007105237125      -8.001215281762       0.000000000000          false
+   1       0.013395864663      -7.906226876261       0.000000000000          false
+   2       0.010335656664      -7.873285002032      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.030626 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.001684931134      -8.001226103023      -0.000000000000          false
+   1       0.003400972623      -7.906266459746      -0.000000000000          false
+   2       0.002878324943      -7.873307727068      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.032091 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000327012137      -8.001226730064      -0.000000000000          false
+   1       0.000994070183      -7.906269430525       0.000000000000          false
+   2       0.000719903786      -7.873309799165      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.036951 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000087200172      -8.001226759712      -0.000000000000          false
+   1       0.000292569386      -7.906269744140       0.000000000000          false
+   2       0.000233420666      -7.873309959217       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.038514 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000021533564      -8.001226762055       0.000000000000          false
+   1       0.000090265357      -7.906269773353       0.000000000000          false
+   2       0.000083056390      -7.873309980943       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   9 subspace size  37
+build sigma took 0.043310 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000004251549      -8.001226762170       0.000000000000          true
+   1       0.000028832750      -7.906269776338       0.000000000000          false
+   2       0.000025461077      -7.873309983280       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION  10 subspace size  39
+build sigma took 0.043595 seconds to execute 
+resident      0.446529388428 peak resident      0.527137756348
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000002947902      -8.001226762172       0.000000000000          true
+   1       0.000006024085      -7.906269776565       0.000000000000          true
+   2       0.000006550213      -7.873309983479       0.000000000000          true
+converged
+Complete Davidson in 0.511943 seconds
+432.796875
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -8.001226762172056 <S^2>= [[1.83313047e-15]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+      0.970567295194       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.067849182237       968 alpha [0, 9]    beta [0, 9]    0 photon
+     -0.066049351180       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.066049308806       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.063324547790      1452 alpha [0, 13]    beta [0, 13]    0 photon
+     -0.046500051500      1441 alpha [0, 13]    beta [0, 2]    0 photon
+     -0.046500050967       132 alpha [0, 2]    beta [0, 13]    0 photon
+     -0.046045872415       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.045496399724       961 alpha [0, 9]    beta [0, 2]    0 photon
+     -0.045496399209       128 alpha [0, 2]    beta [0, 9]    0 photon
+state 1 energy = -7.906269776565078 <S^2>= [[7.75280348e-15]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+      0.522901232769       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.522901145425       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.437507881895     14400 alpha [0, 1]    beta [0, 1]    1 photon
+      0.211543839248     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.211543833420     14401 alpha [0, 1]    beta [0, 2]    1 photon
+      0.160551645576       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.143254361503       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.102785027747       480 alpha [0, 5]    beta [0, 1]    0 photon
+     -0.102785027701       004 alpha [0, 1]    beta [0, 5]    0 photon
+      0.095188707863       132 alpha [0, 2]    beta [0, 13]    0 photon
+state 2 energy = -7.873309983479385 <S^2>= [[3.7080478e-13]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+     -0.869604062801     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.276277496756       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.276276893317       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.099769982269     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.099769951077     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.088929420496       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.074712804507       960 alpha [0, 9]    beta [0, 1]    0 photon
+      0.074712787833       008 alpha [0, 1]    beta [0, 9]    0 photon
+      0.068069748740     15368 alpha [0, 9]    beta [0, 9]    1 photon
+      0.061116781087     15852 alpha [0, 13]    beta [0, 13]    1 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0       0.000000000000      -0.000000000000      -4.520068256400
+   0 ->    1      -0.000000000000       0.000000000000      -1.343828339763
+   0 ->    2       0.000000000000      -0.000000000000       0.332005777568
+   1 ->    1       0.000000000000       0.000000000000      -1.260822240485
+   1 ->    2      -0.000000000000       0.000000000000      -1.789524646816
+   2 ->    2      -0.000000000000       0.000000000000      -3.836387284616
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:29 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.293076023622     7.016003436600
+         H            0.000000000000     0.000000000000     2.040257309711     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      3.51358  C =      3.51358 [cm^-1]
+  Rotational constants: A = ************  B = 105334.42538  C = 105334.42538 [MHz]
+  Nuclear repulsion =    0.680370699432857
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 6.6131448381E-02.
+  Reciprocal condition number of the overlap matrix is 1.9811871108E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.68863299621210   -7.68863e+00   0.00000e+00 
+   @RHF iter   1:    -7.93239792063056   -2.43765e-01   6.29671e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.95224438921451   -1.98465e-02   1.01468e-03 DIIS/ADIIS
+   @RHF iter   3:    -7.95308800468134   -8.43615e-04   3.22286e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.95320104048753   -1.13036e-04   8.62169e-05 DIIS
+   @RHF iter   5:    -7.95321343881751   -1.23983e-05   1.48239e-05 DIIS
+   @RHF iter   6:    -7.95321373696584   -2.98148e-07   1.49790e-06 DIIS
+   @RHF iter   7:    -7.95321374069589   -3.73005e-09   9.75095e-08 DIIS
+   @RHF iter   8:    -7.95321374070511   -9.22284e-12   1.50957e-08 DIIS
+   @RHF iter   9:    -7.95321374070534   -2.31815e-13   2.45245e-09 DIIS
+   @RHF iter  10:    -7.95321374070536   -1.50990e-14   3.70877e-10 DIIS
+   @RHF iter  11:    -7.95321374070537   -8.88178e-15   2.07121e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.513449     2A     -0.262944  
+
+    Virtual:                                                              
+
+       3A     -0.016986     4A      0.033978     5A      0.033978  
+       6A      0.087325     7A      0.105235     8A      0.135399  
+       9A      0.135399    10A      0.183820    11A      0.542671  
+      12A      0.546207    13A      0.546207    14A      0.595428  
+      15A      2.770360    16A      3.912331  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.95321374070537
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.6803706994328573
+    One-Electron Energy =                 -11.7143839626332458
+    Two-Electron Energy =                   3.0807995224950240
+    Total Energy =                         -7.9532137407053654
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -5.3429860            2.1940273           -3.1489587
+ Magnitude           :                                                    3.1489587
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:30 2025
+Module time:
+	user time   =       0.60 seconds =       0.01 minutes
+	system time =       0.06 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =     146.20 seconds =       2.44 minutes
+	system time =      21.73 seconds =       0.36 minutes
+	total time  =         13 seconds =       0.22 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000078 seconds to execute 
+   0      -8.001226762172      -8.001226762172       0.000000000000
+   1      -7.906269776565      -7.906269776565       0.000000000000
+   2      -7.873309983479      -7.873309983480       0.000000000000
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -11.891445217107       3.111094970070      -8.001226762172      -8.001226762172       0.000000000000
+   1     -11.622632496605       2.937640916019      -7.906269776565      -7.906269776565       0.000000000000
+   2     -11.821718199773       3.073515558724      -7.873309983479      -7.873309983480       0.000000000000
+test average energy
+     -7.926935507406      -7.926935507406
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -11.7143839622575516
+CQED-RHF One-electron energy      = -11.6803476451505457
+Nuclear repulsion energy          = 0.6803706994328573
+1/2 <d_e>^2                       = 0.0356843740658359
+1/2 d_N^2                         = 0.0060171946595185
+SCF Iteration   1: Energy = -7.9460301091443855   dE = -7.94603E+00   dRMS = 4.41820E-04
+SCF Iteration   2: Energy = -7.9462316221670504   dE = -2.01513E-04   dRMS = 1.55540E-04
+SCF Iteration   3: Energy = -7.9462624670773350   dE = -3.08449E-05   dRMS = 4.03768E-05
+SCF Iteration   4: Energy = -7.9462641864510415   dE = -1.71937E-06   dRMS = 5.04085E-06
+SCF Iteration   5: Energy = -7.9462642010938440   dE = -1.46428E-08   dRMS = 8.35380E-07
+SCF Iteration   6: Energy = -7.9462642017456337   dE = -6.51790E-10   dRMS = 7.09590E-08
+SCF Iteration   7: Energy = -7.9462642017481135   dE = -2.47979E-12   dRMS = 4.09262E-09
+SCF Iteration   8: Energy = -7.9462642017481384   dE = -2.48690E-14   dRMS = 1.07913E-09
+SCF Iteration   9: Energy = -7.9462642017481455   dE = -7.10543E-15   dRMS = 8.50055E-11
+Total time for SCF iterations: 0.006 seconds 
+
+QED-RHF   energy: -7.94626420 hartree
+Psi4  SCF energy: -7.95321374 hartree
+ Completed QED-RHF in 0.1961970329284668 seconds
+ Completed 1HSO Build in 0.00015020370483398438 seconds
+number of MO 16
+ Completed ERI Build in 0.01544809341430664 seconds 
+434.9453125
+434.9453125
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 0.00010037422180175781 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.09567475318908691 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.027382 seconds to execute 
+single_replacement_list took 0.015517 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.026532 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.025525 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.416414406197      -7.946977979015       0.000000000000          false
+   1       0.416866414054      -7.837545263604       0.000000000000          false
+   2       0.418866844142      -7.810632219921       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.022751 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.102150051920      -7.987123806497      -0.000000000000          false
+   1       0.164376090064      -7.896752026390       0.000000000000          false
+   2       0.106346674634      -7.859544026748      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.029878 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.034261906517      -7.990361432075      -0.000000000000          false
+   1       0.050686700080      -7.904343910311      -0.000000000000          false
+   2       0.039182997260      -7.862989744851       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.033826 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.008203210268      -7.990629895667      -0.000000000000          false
+   1       0.012940988387      -7.904907869069      -0.000000000000          false
+   2       0.010996391741      -7.863371701474       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.030647 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.002086029930      -7.990645172587      -0.000000000000          false
+   1       0.003640233308      -7.904947344574      -0.000000000000          false
+   2       0.003117530203      -7.863400624444       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.031902 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000468046513      -7.990646236089       0.000000000000          false
+   1       0.001156438491      -7.904950733566       0.000000000000          false
+   2       0.000904381655      -7.863403377422       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.036983 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000136252047      -7.990646300042       0.000000000000          false
+   1       0.000366725357      -7.904951160513       0.000000000000          false
+   2       0.000278841279      -7.863403626707       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.038371 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000032351723      -7.990646305645       0.000000000000          false
+   1       0.000136996081      -7.904951216095       0.000000000000          false
+   2       0.000092243835      -7.863403652970       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   9 subspace size  37
+build sigma took 0.044474 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000006298155      -7.990646305890       0.000000000000          true
+   1       0.000035946568      -7.904951221863       0.000000000000          false
+   2       0.000037622205      -7.863403656542       0.000000000071          false
+unconverged roots
+   1   2
+
+
+ITERATION  10 subspace size  39
+build sigma took 0.045994 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000006172196      -7.990646305890       0.000000000000          true
+   1       0.000008574096      -7.904951222250       0.000000000000          true
+   2       0.000031545783      -7.863403656745       0.000000000029          false
+unconverged roots
+   2
+
+
+ITERATION  11 subspace size  40
+build sigma took 0.045925 seconds to execute 
+resident      0.448116302490 peak resident      0.527362823486
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005489843      -7.990646305893       0.000000000000          true
+   1       0.000008255641      -7.904951222253       0.000000000000          true
+   2       0.000009512407      -7.863403657111       0.000000000000          true
+converged
+Complete Davidson in 0.579164 seconds
+434.9453125
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -7.990646305892669 <S^2>= [[9.24316792e-16]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+     -0.959394852561       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.085136456394       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.085136455024       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.071125450129       968 alpha [0, 9]    beta [0, 9]    0 photon
+      0.058633622493       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.058332122693       601 alpha [0, 6]    beta [0, 2]    0 photon
+      0.058332119506       125 alpha [0, 2]    beta [0, 6]    0 photon
+      0.055737838161       605 alpha [0, 6]    beta [0, 6]    0 photon
+     -0.055317373576     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.055317354466     14520 alpha [0, 2]    beta [0, 1]    1 photon
+state 1 energy = -7.904951222253318 <S^2>= [[3.05829196e-14]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+     -0.537925451918       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.537925304898       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.356039380550     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.220570169922     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.220570108797     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.185457039386       000 alpha [0, 1]    beta [0, 1]    0 photon
+      0.178203082124       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.112638919991       601 alpha [0, 6]    beta [0, 2]    0 photon
+      0.112638901867       125 alpha [0, 2]    beta [0, 6]    0 photon
+     -0.110924872659       004 alpha [0, 1]    beta [0, 5]    0 photon
+state 2 energy = -7.8634036571114985 <S^2>= [[7.33336737e-14]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+      0.896791212142     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.226821462847       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.226821447946       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.096370861049       960 alpha [0, 9]    beta [0, 1]    0 photon
+      0.096370781661       008 alpha [0, 1]    beta [0, 9]    0 photon
+     -0.081454284340     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.081454124695     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.080389414932       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.073394663862     15368 alpha [0, 9]    beta [0, 9]    1 photon
+     -0.055061689662     15005 alpha [0, 6]    beta [0, 6]    1 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0       0.000000000000      -0.000000000000      -4.814595266338
+   0 ->    1      -0.000000000000      -0.000000000000       1.577192889379
+   0 ->    2      -0.000000000000      -0.000000000000       0.235371244972
+   1 ->    1      -0.000000000000      -0.000000000000      -1.435610795817
+   1 ->    2      -0.000000000000      -0.000000000000       1.609089794614
+   2 ->    2       0.000000000000      -0.000000000000      -4.471415767404
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:32 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.320988025872     7.016003436600
+         H            0.000000000000     0.000000000000     2.234567529684     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      2.92909  C =      2.92909 [cm^-1]
+  Rotational constants: A = ************  B =  87811.87447  C =  87811.87447 [MHz]
+  Nuclear repulsion =    0.621208029916957
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 6.9903208617E-02.
+  Reciprocal condition number of the overlap matrix is 2.1608195014E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.68541012384445   -7.68541e+00   0.00000e+00 
+   @RHF iter   1:    -7.91644826497334   -2.31038e-01   6.35731e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.93886367966019   -2.24154e-02   1.04956e-03 DIIS/ADIIS
+   @RHF iter   3:    -7.93981722707098   -9.53547e-04   3.52899e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.93995389597346   -1.36669e-04   9.18712e-05 DIIS
+   @RHF iter   5:    -7.93996889751977   -1.50015e-05   1.75787e-05 DIIS
+   @RHF iter   6:    -7.93996936175932   -4.64240e-07   1.92998e-06 DIIS
+   @RHF iter   7:    -7.93996936855714   -6.79782e-09   1.38412e-07 DIIS
+   @RHF iter   8:    -7.93996936857687   -1.97282e-11   2.59109e-08 DIIS
+   @RHF iter   9:    -7.93996936857767   -8.04690e-13   4.94087e-09 DIIS
+   @RHF iter  10:    -7.93996936857770   -3.37508e-14   5.27599e-10 DIIS
+   @RHF iter  11:    -7.93996936857770    5.32907e-15   4.66688e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.529700     2A     -0.252492  
+
+    Virtual:                                                              
+
+       3A     -0.022195     4A      0.031087     5A      0.031087  
+       6A      0.082612     7A      0.104318     8A      0.130391  
+       9A      0.130391    10A      0.169041    11A      0.524246  
+      12A      0.535566    13A      0.535566    14A      0.606551  
+      15A      2.763617    16A      3.892470  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.93996936857770
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.6212080299169567
+    One-Electron Energy =                 -11.5579719077944851
+    Two-Electron Energy =                   2.9967945092998285
+    Total Energy =                         -7.9399693685776995
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -5.8112597            2.4029823           -3.4082775
+ Magnitude           :                                                    3.4082775
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:32 2025
+Module time:
+	user time   =       0.49 seconds =       0.01 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     171.28 seconds =       2.85 minutes
+	system time =      25.52 seconds =       0.43 minutes
+	total time  =         15 seconds =       0.25 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000058 seconds to execute 
+   0      -7.990646305893      -7.990646305893      -0.000000000000
+   1      -7.904951222253      -7.904951222253       0.000000000000
+   2      -7.863403657111      -7.863403657112       0.000000000000
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -11.719747085893       3.016103417275      -7.990646305893      -7.990646305893      -0.000000000000
+   1     -11.469947570320       2.861213878370      -7.904951222253      -7.904951222253       0.000000000000
+   2     -11.673466423234       2.994245518162      -7.863403657111      -7.863403657112       0.000000000000
+test average energy
+     -7.919667061753      -7.919667061752
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -11.5579719069194695
+CQED-RHF One-electron energy      = -11.5179767123926808
+Nuclear repulsion energy          = 0.6212080299169567
+1/2 <d_e>^2                       = 0.0422134248321838
+1/2 d_N^2                         = 0.0072179047049553
+SCF Iteration   1: Energy = -7.9318082333865814   dE = -7.93181E+00   dRMS = 5.15302E-04
+SCF Iteration   2: Energy = -7.9321061160877164   dE = -2.97883E-04   dRMS = 1.84564E-04
+SCF Iteration   3: Energy = -7.9321504272012522   dE = -4.43111E-05   dRMS = 4.88162E-05
+SCF Iteration   4: Energy = -7.9321530446355339   dE = -2.61743E-06   dRMS = 5.99702E-06
+SCF Iteration   5: Energy = -7.9321530659789872   dE = -2.13435E-08   dRMS = 9.85109E-07
+SCF Iteration   6: Energy = -7.9321530669050642   dE = -9.26077E-10   dRMS = 8.81355E-08
+SCF Iteration   7: Energy = -7.9321530669094820   dE = -4.41780E-12   dRMS = 5.27590E-09
+SCF Iteration   8: Energy = -7.9321530669094997   dE = -1.77636E-14   dRMS = 1.57063E-09
+SCF Iteration   9: Energy = -7.9321530669095086   dE = -8.88178E-15   dRMS = 1.13205E-10
+SCF Iteration  10: Energy = -7.9321530669095033   dE =  5.32907E-15   dRMS = 5.57618E-12
+Total time for SCF iterations: 0.007 seconds 
+
+QED-RHF   energy: -7.93215307 hartree
+Psi4  SCF energy: -7.93996937 hartree
+ Completed QED-RHF in 0.19979429244995117 seconds
+ Completed 1HSO Build in 0.00013828277587890625 seconds
+number of MO 16
+ Completed ERI Build in 0.01528620719909668 seconds 
+435.1953125
+435.1953125
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 0.00010395050048828125 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.08244776725769043 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.025903 seconds to execute 
+single_replacement_list took 0.015491 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.032392 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.026407 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.416110657122      -7.933091993740       0.000000000000          false
+   1       0.417723020391      -7.828730718728       0.000000000000          false
+   2       0.417859792995      -7.801474950987       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.036280 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.116377794773      -7.975809167572       0.000000000000          false
+   1       0.175915157530      -7.894486335410       0.000000000000          false
+   2       0.111432762223      -7.848724851748       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.036072 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.037340575735      -7.979916923080      -0.000000000000          false
+   1       0.049476977083      -7.902621376584       0.000000000000          false
+   2       0.041183883067      -7.852649545466       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.027364 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.008317056567      -7.980214749922      -0.000000000000          false
+   1       0.012404487832      -7.903145500160      -0.000000000000          false
+   2       0.011523840303      -7.853072541229      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.031718 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.002085888980      -7.980230326079      -0.000000000000          false
+   1       0.003729945534      -7.903183793034      -0.000000000000          false
+   2       0.003315556203      -7.853106627535       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.033066 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000435688723      -7.980231320913       0.000000000000          false
+   1       0.001344879666      -7.903187774563       0.000000000000          false
+   2       0.000954966886      -7.853109736957       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.036927 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000139834156      -7.980231375192       0.000000000000          false
+   1       0.000550562440      -7.903188458671      -0.000000000000          false
+   2       0.000345801262      -7.853110057620       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.038704 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000034091633      -7.980231380817       0.000000000000          false
+   1       0.000191712214      -7.903188574872       0.000000000000          false
+   2       0.000114539421      -7.853110099711       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   9 subspace size  37
+build sigma took 0.044298 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000007477087      -7.980231381122       0.000000000000          true
+   1       0.000054886307      -7.903188586872       0.000000000000          false
+   2       0.000034329904      -7.853110104401       0.000000000000          false
+unconverged roots
+   1   2
+
+
+ITERATION  10 subspace size  39
+build sigma took 0.045647 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005509888      -7.980231381131       0.000000000000          true
+   1       0.000014919322      -7.903188587852       0.000000000000          false
+   2       0.000010308774      -7.853110104791       0.000000000006          false
+unconverged roots
+   1   2
+
+
+ITERATION  11 subspace size  41
+build sigma took 0.045582 seconds to execute 
+resident      0.448734283447 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005501806      -7.980231381131       0.000000000000          true
+   1       0.000003605675      -7.903188587925       0.000000000000          true
+   2       0.000006886513      -7.853110104816       0.000000000001          true
+converged
+Complete Davidson in 0.611926 seconds
+435.1953125
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -7.9802313811306655 <S^2>= [[7.85862888e-16]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+      0.943186365075       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.109660630363       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.109660602403       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.078521251216       125 alpha [0, 2]    beta [0, 6]    0 photon
+      0.078521251055       601 alpha [0, 6]    beta [0, 2]    0 photon
+     -0.076962295735       605 alpha [0, 6]    beta [0, 6]    0 photon
+     -0.074309608502       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.067685349719     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.067685349104     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.066076714343       968 alpha [0, 9]    beta [0, 9]    0 photon
+state 1 energy = -7.903188587924548 <S^2>= [[7.7466246e-15]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+     -0.539710032491       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.539710001775       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.303396546895     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.235608804060       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.224170306198     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.224170267947     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.191074546847       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.123977869882       125 alpha [0, 2]    beta [0, 6]    0 photon
+      0.123977852452       601 alpha [0, 6]    beta [0, 2]    0 photon
+     -0.111636077086       480 alpha [0, 5]    beta [0, 1]    0 photon
+state 2 energy = -7.853110104815804 <S^2>= [[5.90218403e-13]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+      0.902469392637     14400 alpha [0, 1]    beta [0, 1]    1 photon
+      0.194864715601       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.194863948289       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.115722085897       008 alpha [0, 1]    beta [0, 9]    0 photon
+      0.115722074077       960 alpha [0, 9]    beta [0, 1]    0 photon
+     -0.083441676924     15005 alpha [0, 6]    beta [0, 6]    1 photon
+      0.075729966204       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.070934107230     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.070934091379     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.069272145668     15368 alpha [0, 9]    beta [0, 9]    1 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0       0.000000000000       0.000000000000      -5.053716165180
+   0 ->    1       0.000000000000      -0.000000000000       1.820964837979
+   0 ->    2      -0.000000000001       0.000000000001      -0.162279941702
+   1 ->    1       0.000000000000      -0.000000000000      -1.808877604830
+   1 ->    2      -0.000000000001       0.000000000001      -1.546996176602
+   2 ->    2       0.000000000000      -0.000000000000      -4.956293714737
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:34 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.348900028121     7.016003436600
+         H            0.000000000000     0.000000000000     2.428877749656     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      2.47918  C =      2.47918 [cm^-1]
+  Rotational constants: A = ************  B =  74323.97055  C =  74323.97055 [MHz]
+  Nuclear repulsion =    0.571511387523600
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 7.3051179060E-02.
+  Reciprocal condition number of the overlap matrix is 2.3313357838E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.68255806720124   -7.68256e+00   0.00000e+00 
+   @RHF iter   1:    -7.90075487486619   -2.18197e-01   6.44058e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.92584754548995   -2.50927e-02   1.08240e-03 DIIS/ADIIS
+   @RHF iter   3:    -7.92690681004509   -1.05926e-03   3.84395e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.92706811930744   -1.61309e-04   9.68179e-05 DIIS
+   @RHF iter   5:    -7.92708563720656   -1.75179e-05   2.04565e-05 DIIS
+   @RHF iter   6:    -7.92708633124755   -6.94041e-07   2.52700e-06 DIIS
+   @RHF iter   7:    -7.92708634398436   -1.27368e-08   2.09524e-07 DIIS
+   @RHF iter   8:    -7.92708634402968   -4.53104e-11   4.79409e-08 DIIS
+   @RHF iter   9:    -7.92708634403284   -3.16724e-12   8.58458e-09 DIIS
+   @RHF iter  10:    -7.92708634403294   -9.32587e-14   5.62462e-10 DIIS
+   @RHF iter  11:    -7.92708634403294   -3.55271e-15   6.01571e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.544263     2A     -0.242879  
+
+    Virtual:                                                              
+
+       3A     -0.027373     4A      0.028030     5A      0.028030  
+       6A      0.076964     7A      0.103238     8A      0.125417  
+       9A      0.125417    10A      0.156097    11A      0.512028  
+      12A      0.525733    13A      0.525733    14A      0.608515  
+      15A      2.758785    16A      3.874789  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.92708634403294
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.5715113875236000
+    One-Electron Energy =                 -11.4229118248116173
+    Two-Electron Energy =                   2.9243140932550782
+    Total Energy =                         -7.9270863440329391
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -6.2831439            2.6119372           -3.6712066
+ Magnitude           :                                                    3.6712066
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:34 2025
+Module time:
+	user time   =       0.49 seconds =       0.01 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     196.72 seconds =       3.28 minutes
+	system time =      29.35 seconds =       0.49 minutes
+	total time  =         17 seconds =       0.28 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000064 seconds to execute 
+   0      -7.980231381131      -7.980231381131      -0.000000000000
+   1      -7.903188587925      -7.903188587925       0.000000000000
+   2      -7.853110104816      -7.853110104816       0.000000000000
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -11.574856145673       2.934743466270      -7.980231381131      -7.980231381131      -0.000000000000
+   1     -11.352934465222       2.803268224410      -7.903188587925      -7.903188587925       0.000000000000
+   2     -11.537183637184       2.919540971193      -7.853110104816      -7.853110104816       0.000000000000
+test average energy
+     -7.912176691290      -7.912176691290
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -11.4229118236990992
+CQED-RHF One-electron energy      = -11.3763832159820044
+Nuclear repulsion energy          = 0.5715113875236000
+1/2 <d_e>^2                       = 0.0493473711335077
+1/2 d_N^2                         = 0.0085277702090681
+SCF Iteration   1: Energy = -7.9178331101371846   dE = -7.91783E+00   dRMS = 6.01595E-04
+SCF Iteration   2: Energy = -7.9182699243216739   dE = -4.36814E-04   dRMS = 2.19007E-04
+SCF Iteration   3: Energy = -7.9183323360732061   dE = -6.24118E-05   dRMS = 5.92003E-05
+SCF Iteration   4: Energy = -7.9183362882829247   dE = -3.95221E-06   dRMS = 7.34637E-06
+SCF Iteration   5: Energy = -7.9183363226639880   dE = -3.43811E-08   dRMS = 1.31648E-06
+SCF Iteration   6: Energy = -7.9183363243335663   dE = -1.66958E-09   dRMS = 1.12133E-07
+SCF Iteration   7: Energy = -7.9183363243414515   dE = -7.88525E-12   dRMS = 8.67212E-09
+SCF Iteration   8: Energy = -7.9183363243415279   dE = -7.63833E-14   dRMS = 2.53283E-09
+SCF Iteration   9: Energy = -7.9183363243415279   dE =  0.00000E+00   dRMS = 1.46585E-10
+SCF Iteration  10: Energy = -7.9183363243415208   dE =  7.10543E-15   dRMS = 9.85751E-12
+Total time for SCF iterations: 0.007 seconds 
+
+QED-RHF   energy: -7.91833632 hartree
+Psi4  SCF energy: -7.92708634 hartree
+ Completed QED-RHF in 0.19952869415283203 seconds
+ Completed 1HSO Build in 0.000141143798828125 seconds
+number of MO 16
+ Completed ERI Build in 0.015506505966186523 seconds 
+437.05859375
+437.05859375
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 0.00010132789611816406 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.08890986442565918 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.023205 seconds to execute 
+single_replacement_list took 0.015541 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.028915 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.018118 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.415982652649      -7.919541944658       0.000000000000          false
+   1       0.418962400453      -7.821206428625       0.000000000000          false
+   2       0.417079464044      -7.791097024965       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.019211 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.131449714958      -7.964796927985      -0.000000000000          false
+   1       0.182906593120      -7.891366313900      -0.000000000000          false
+   2       0.119105312769      -7.837882664848      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.029980 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.042444228651      -7.970209719123       0.000000000000          false
+   1       0.053385614579      -7.900299047099      -0.000000000000          false
+   2       0.047053227406      -7.842678947103       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.028665 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.009751159807      -7.970597672861      -0.000000000000          false
+   1       0.013318183510      -7.900918658451       0.000000000000          false
+   2       0.014680247136      -7.843277913361       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.030715 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.002930106070      -7.970622636673      -0.000000000000          false
+   1       0.004062148546      -7.900965276767       0.000000000000          false
+   2       0.005325913621      -7.843341474368      -0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.031804 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000981408177      -7.970625440180       0.000000000000          false
+   1       0.001424306784      -7.900970223884      -0.000000000000          false
+   2       0.002695816260      -7.843353444106       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.036954 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000256886679      -7.970625720950       0.000000000000          false
+   1       0.000382814053      -7.900970841654      -0.000000000000          false
+   2       0.000971558514      -7.843356179229       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.038681 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000055794326      -7.970625738170       0.000000000000          false
+   1       0.000087776245      -7.900970880310       0.000000000000          false
+   2       0.000255343213      -7.843356431653       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   9 subspace size  37
+build sigma took 0.044621 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000013704279      -7.970625739066       0.000000000000          false
+   1       0.000021880320      -7.900970882777       0.000000000000          false
+   2       0.000072475352      -7.843356451960       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION  10 subspace size  40
+build sigma took 0.045761 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000003625995      -7.970625739131       0.000000000000          true
+   1       0.000005312014      -7.900970882929       0.000000000000          true
+   2       0.000024440761      -7.843356453867       0.000000000013          false
+unconverged roots
+   2
+
+
+ITERATION  11 subspace size  41
+build sigma took 0.046309 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000003527069      -7.970625739132       0.000000000000          true
+   1       0.000005257643      -7.900970882929       0.000000000000          true
+   2       0.000021667990      -7.843356453907       0.000000000026          false
+unconverged roots
+   2
+
+
+ITERATION  12 subspace size  42
+build sigma took 0.045658 seconds to execute 
+resident      0.447666168213 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000002784876      -7.970625739133       0.000000000000          true
+   1       0.000004704541      -7.900970882931       0.000000000000          true
+   2       0.000006822727      -7.843356454067       0.000000000001          true
+converged
+Complete Davidson in 0.616399 seconds
+437.05859375
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -7.970625739133006 <S^2>= [[1.14513775e-14]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+      0.920215233369       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.139890352926       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.139890345895       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.093004525099       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.091533605138       601 alpha [0, 6]    beta [0, 2]    0 photon
+      0.091533604738       125 alpha [0, 2]    beta [0, 6]    0 photon
+     -0.082349339123     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.082349338333     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.079411526620       605 alpha [0, 6]    beta [0, 6]    0 photon
+      0.064106290746     14400 alpha [0, 1]    beta [0, 1]    1 photon
+state 1 energy = -7.900970882931138 <S^2>= [[1.38936728e-14]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+      0.533797097589       120 alpha [0, 2]    beta [0, 1]    0 photon
+      0.533797097141       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.294333964057       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.266662893999     14400 alpha [0, 1]    beta [0, 1]    1 photon
+      0.224280226393     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.224280226283     14401 alpha [0, 1]    beta [0, 2]    1 photon
+      0.199392795694       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.114794555759       125 alpha [0, 2]    beta [0, 6]    0 photon
+     -0.114794555572       601 alpha [0, 6]    beta [0, 2]    0 photon
+      0.097363853418     14521 alpha [0, 2]    beta [0, 2]    1 photon
+state 2 energy = -7.843356454066687 <S^2>= [[1.29998423e-12]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+      0.892950327600     14400 alpha [0, 1]    beta [0, 1]    1 photon
+      0.172006663121       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.172006594580       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.132994463497       960 alpha [0, 9]    beta [0, 1]    0 photon
+     -0.132994376751       008 alpha [0, 1]    beta [0, 9]    0 photon
+     -0.095005415044     15005 alpha [0, 6]    beta [0, 6]    1 photon
+      0.077688768320       005 alpha [0, 1]    beta [0, 6]    0 photon
+      0.077688640785       600 alpha [0, 6]    beta [0, 1]    0 photon
+      0.072904569026       121 alpha [0, 2]    beta [0, 2]    0 photon
+      0.067010282894     14520 alpha [0, 2]    beta [0, 1]    1 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0      -0.000000000000      -0.000000000000      -5.219718181187
+   0 ->    1       0.000000000000       0.000000000000      -2.071094533449
+   0 ->    2      -0.000000000003      -0.000000000004      -0.099328525435
+   1 ->    1      -0.000000000000      -0.000000000000      -2.323227728499
+   1 ->    2       0.000000000002       0.000000000003       1.608562633852
+   2 ->    2       0.000000000000       0.000000000000      -5.348215138720
+check total energy using full rdms
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on chemh128rt3lws
+*** at Thu Jan 23 18:43:36 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.376812030371     7.016003436600
+         H            0.000000000000     0.000000000000     2.623187969629     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      2.12550  C =      2.12550 [cm^-1]
+  Rotational constants: A = ************  B =  63720.82523  C =  63720.82523 [MHz]
+  Nuclear repulsion =    0.529177210670000
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-10
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G
+    Blend: 6-311G
+    Number of shells: 10
+    Number of basis functions: 16
+    Number of Cartesian functions: 16
+    Spherical Harmonics?: true
+    Max angular momentum: 1
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              10
+      Number of primitives:             21
+      Number of atomic orbitals:        16
+      Number of basis functions:        16
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 18632 doubles for integral storage.
+  We computed 1540 shell quartets total.
+  Whereas there are 1540 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 7.5819502641E-02.
+  Reciprocal condition number of the overlap matrix is 2.4983521187E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         16      16 
+   -------------------------
+    Total      16      16
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.68000178992230   -7.68000e+00   0.00000e+00 
+   @RHF iter   1:    -7.88573896942332   -2.05737e-01   6.53294e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.91352157320031   -2.77826e-02   1.11149e-03 DIIS/ADIIS
+   @RHF iter   3:    -7.91467477658884   -1.15320e-03   4.15050e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.91485886998147   -1.84093e-04   1.00622e-04 DIIS/ADIIS
+   @RHF iter   5:    -7.91487840827742   -1.95383e-05   2.30032e-05 DIIS
+   @RHF iter   6:    -7.91487936200100   -9.53724e-07   3.35507e-06 DIIS
+   @RHF iter   7:    -7.91487938639261   -2.43916e-08   3.22361e-07 DIIS
+   @RHF iter   8:    -7.91487938649548   -1.02867e-10   8.68817e-08 DIIS
+   @RHF iter   9:    -7.91487938650748   -1.19993e-11   1.10331e-08 DIIS
+   @RHF iter  10:    -7.91487938650767   -1.87406e-13   5.34366e-10 DIIS
+   @RHF iter  11:    -7.91487938650766    5.32907e-15   5.55655e-11 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.557185     2A     -0.234103  
+
+    Virtual:                                                              
+
+       3A     -0.032441     4A      0.024853     5A      0.024853  
+       6A      0.070776     7A      0.101340     8A      0.120590  
+       9A      0.120590    10A      0.145627    11A      0.505872  
+      12A      0.516756    13A      0.516756    14A      0.601598  
+      15A      2.752664    16A      3.860417  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.91487938650766
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.5291772106700000
+    One-Electron Energy =                 -11.3055371236115771
+    Two-Electron Energy =                   2.8614805264339163
+    Total Energy =                         -7.9148793865076614
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Y            :         -0.0000000            0.0000000           -0.0000000
+ Dipole Z            :         -6.7548898            2.8208922           -3.9339976
+ Magnitude           :                                                    3.9339976
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on chemh128rt3lws at Thu Jan 23 18:43:36 2025
+Module time:
+	user time   =       0.48 seconds =       0.01 minutes
+	system time =       0.03 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =     222.26 seconds =       3.70 minutes
+	system time =      33.40 seconds =       0.56 minutes
+	total time  =         19 seconds =       0.32 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    41 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+    atoms 2 entry H          line    21 file /home/kampoh/anaconda3/share/psi4/basis/6-311g.gbs 
+
+get_graph took 0.000071 seconds to execute 
+   0      -7.970625739133      -7.970625739133      -0.000000000000
+   1      -7.900970882931      -7.900970882931      -0.000000000000
+   2      -7.843356454067      -7.843356454067       0.000000000001
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -11.452216034194       2.864881623628      -7.970625739133      -7.970625739133      -0.000000000000
+   1     -11.259223678161       2.756563954113      -7.900970882931      -7.900970882931      -0.000000000000
+   2     -11.414417454090       2.851958890018      -7.843356454067      -7.843356454067       0.000000000001
+test average energy
+     -7.904984358711      -7.904984358710
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+weight [0.33333333 0.33333333 0.33333333]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -11.3055371225855517
+CQED-RHF One-electron energy      = -11.2519106831232119
+Nuclear repulsion energy          = 0.5291772106700000
+1/2 <d_e>^2                       = 0.0570356698547032
+1/2 d_N^2                         = 0.0099467911718571
+SCF Iteration   1: Energy = -7.9043989166185531   dE = -7.90440E+00   dRMS = 7.01383E-04
+SCF Iteration   2: Energy = -7.9050321221124475   dE = -6.33205E-04   dRMS = 2.59512E-04
+SCF Iteration   3: Energy = -7.9051180902357769   dE = -8.59681E-05   dRMS = 7.20724E-05
+SCF Iteration   4: Energy = -7.9051240119563611   dE = -5.92172E-06   dRMS = 9.34448E-06
+SCF Iteration   5: Energy = -7.9051240731557284   dE = -6.11994E-08   dRMS = 1.92515E-06
+SCF Iteration   6: Energy = -7.9051240767409121   dE = -3.58518E-09   dRMS = 1.46550E-07
+SCF Iteration   7: Energy = -7.9051240767553947   dE = -1.44826E-11   dRMS = 1.55322E-08
+SCF Iteration   8: Energy = -7.9051240767556328   dE = -2.38032E-13   dRMS = 4.05742E-09
+SCF Iteration   9: Energy = -7.9051240767556559   dE = -2.30926E-14   dRMS = 1.91974E-10
+SCF Iteration  10: Energy = -7.9051240767556648   dE = -8.88178E-15   dRMS = 1.80566E-11
+Total time for SCF iterations: 0.007 seconds 
+
+QED-RHF   energy: -7.90512408 hartree
+Psi4  SCF energy: -7.91487939 hartree
+ Completed QED-RHF in 0.1989765167236328 seconds
+ Completed 1HSO Build in 0.000141143798828125 seconds
+number of MO 16
+ Completed ERI Build in 0.01514744758605957 seconds 
+437.63671875
+437.63671875
+mem_gkl 0.001953125
+mem_twoeint 0.5
+mem_d_cmo 0.001953125
+ Completed 2D build in 9.989738464355469e-05 seconds
+mem_D+T 0.46875
+ Completed determinant list in 0.10646724700927734 seconds 
+memory required for sigma and CI vectors 26.3671875
+buil_H_diag took 0.027400 seconds to execute 
+single_replacement_list took 0.015533 seconds to execute 
+target_spin       0.000000000000
+ indim24 maxiter100 indim24 H_dim 28800
+build sigma took 0.031676 seconds to execute 
+
+ITERATION   1 subspace size  13
+build sigma took 0.021333 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.415954512748      -7.906640136277       0.000000000000          false
+   1       0.420339340527      -7.814701899634       0.000000000000          false
+   2       0.416610974736      -7.780383045000       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   2 subspace size  16
+build sigma took 0.033955 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.146895649794      -7.953590137929       0.000000000000          false
+   1       0.188797476401      -7.887549909784      -0.000000000000          false
+   2       0.127718674986      -7.826560298563       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   3 subspace size  19
+build sigma took 0.035325 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.054768898706      -7.961363050363      -0.000000000000          false
+   1       0.059588100095      -7.897344628362       0.000000000000          false
+   2       0.063560677865      -7.833468826433       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   4 subspace size  22
+build sigma took 0.025540 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.014755355800      -7.962085703973       0.000000000000          false
+   1       0.014867068799      -7.898122822876       0.000000000000          false
+   2       0.020939567839      -7.834622114191       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   5 subspace size  25
+build sigma took 0.030586 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.004492615173      -7.962140675367       0.000000000000          false
+   1       0.004971378405      -7.898182746418       0.000000000000          false
+   2       0.008199264170      -7.834749215192       0.000000000000          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   6 subspace size  28
+build sigma took 0.031773 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.001350900248      -7.962146528036       0.000000000000          false
+   1       0.001452596787      -7.898189373424       0.000000000000          false
+   2       0.005231313790      -7.834782497438       0.000000000001          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   7 subspace size  31
+build sigma took 0.036991 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000374491063      -7.962147057278       0.000000000000          false
+   1       0.000455341268      -7.898189999855       0.000000000000          false
+   2       0.001866514417      -7.834792946260       0.000000000710          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   8 subspace size  34
+build sigma took 0.038892 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000094253207      -7.962147097225       0.000000000018          false
+   1       0.000131185607      -7.898190064757       0.000000000301          false
+   2       0.000666005823      -7.834793857165       0.000000148969          false
+unconverged roots
+   0   1   2
+
+
+ITERATION   9 subspace size  37
+build sigma took 0.043998 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000024771615      -7.962147099827       0.000000000000          false
+   1       0.000047551829      -7.898190070662       0.000000000026          false
+   2       0.000483904870      -7.834793993344       0.000000000564          false
+unconverged roots
+   0   1   2
+
+
+ITERATION  10 subspace size  40
+build sigma took 0.045162 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005857626      -7.962147100037       0.000000000001          true
+   1       0.000020506013      -7.898190071395       0.000000000128          false
+   2       0.000188041093      -7.834794087644       0.000000000032          false
+unconverged roots
+   1   2
+
+
+ITERATION  11 subspace size  42
+build sigma took 0.045620 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005768731      -7.962147100037       0.000000000000          true
+   1       0.000008419670      -7.898190071555       0.000000000005          true
+   2       0.000052218870      -7.834794099431       0.000000000107          false
+unconverged roots
+   2
+
+
+ITERATION  12 subspace size  43
+build sigma took 0.050549 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005750977      -7.962147100037       0.000000000000          true
+   1       0.000008179495      -7.898190071558       0.000000000002          true
+   2       0.000036900626      -7.834794099847       0.000000000215          false
+unconverged roots
+   2
+
+
+ITERATION  13 subspace size  44
+build sigma took 0.050779 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005645101      -7.962147100038       0.000000000000          true
+   1       0.000008190709      -7.898190071558       0.000000000002          true
+   2       0.000012952293      -7.834794100291       0.000000000053          false
+unconverged roots
+   2
+
+
+ITERATION  14 subspace size  45
+build sigma took 0.051863 seconds to execute 
+resident      0.448535919189 peak resident      0.527919769287
+  ROOT      RESIDUAL NORM        EIGENVALUE          WFN TOTAL SPIN      CONVERGENCE
+   0       0.000005640113      -7.962147100038       0.000000000000          true
+   1       0.000008189718      -7.898190071558       0.000000000002          true
+   2       0.000009498932      -7.834794100330       0.000000000006          true
+converged
+Complete Davidson in 0.792900 seconds
+437.63671875
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -7.9621471000379405 <S^2>= [[2.1432031e-13]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+     -0.888915986499       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.175135053815       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.175135033831       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.114100258740       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.099108324480     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.099108167649     14520 alpha [0, 2]    beta [0, 1]    1 photon
+     -0.092062135532       124 alpha [0, 2]    beta [0, 5]    0 photon
+     -0.092061993386       481 alpha [0, 5]    beta [0, 2]    0 photon
+     -0.087687396727       125 alpha [0, 2]    beta [0, 6]    0 photon
+     -0.087687163186       601 alpha [0, 6]    beta [0, 2]    0 photon
+state 1 energy = -7.898190071557652 <S^2>= [[1.71826905e-12]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+     -0.522164388501       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.522164296349       001 alpha [0, 1]    beta [0, 2]    0 photon
+      0.359988333535       000 alpha [0, 1]    beta [0, 1]    0 photon
+     -0.238152368829     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.221602857728     14401 alpha [0, 1]    beta [0, 2]    1 photon
+     -0.221602285356     14520 alpha [0, 2]    beta [0, 1]    1 photon
+      0.202819924035       121 alpha [0, 2]    beta [0, 2]    0 photon
+     -0.104392190199       124 alpha [0, 2]    beta [0, 5]    0 photon
+     -0.104391742350       481 alpha [0, 5]    beta [0, 2]    0 photon
+      0.101893520078     14521 alpha [0, 2]    beta [0, 2]    1 photon
+state 2 energy = -7.834794100330322 <S^2>= [[6.03739817e-12]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+      0.865040617377     14400 alpha [0, 1]    beta [0, 1]    1 photon
+     -0.152022714094       001 alpha [0, 1]    beta [0, 2]    0 photon
+     -0.152022513590       120 alpha [0, 2]    beta [0, 1]    0 photon
+     -0.148623064413       008 alpha [0, 1]    beta [0, 9]    0 photon
+     -0.148621569875       960 alpha [0, 9]    beta [0, 1]    0 photon
+     -0.113720885820       480 alpha [0, 5]    beta [0, 1]    0 photon
+     -0.113720699032       004 alpha [0, 1]    beta [0, 5]    0 photon
+     -0.096930306879       005 alpha [0, 1]    beta [0, 6]    0 photon
+     -0.096929857911       600 alpha [0, 6]    beta [0, 1]    0 photon
+     -0.073381397189     15005 alpha [0, 6]    beta [0, 6]    1 photon
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0      -0.000000000000      -0.000000000000      -5.303635983820
+   0 ->    1       0.000000000000      -0.000000000000       2.307609453008
+   0 ->    2       0.000000000016       0.000000000011       0.036891472112
+   1 ->    1       0.000000000000      -0.000000000000      -2.951400337563
+   1 ->    2       0.000000000010       0.000000000007       1.813978848524
+   2 ->    2       0.000000000000       0.000000000000      -5.665239957649
+check total energy using full rdms
+   0      -7.962147100038      -7.962147100038       0.000000000000
+   1      -7.898190071558      -7.898190071558       0.000000000001
+   2      -7.834794100330      -7.834794100333       0.000000000003
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -11.348407790166       2.804953120594      -7.962147100038      -7.962147100038       0.000000000000
+   1     -11.181656196761       2.717006454820      -7.898190071558      -7.898190071558       0.000000000001
+   2     -11.302737238723       2.791898323145      -7.834794100330      -7.834794100333       0.000000000003
+test average energy
+     -7.898377090643      -7.898377090642
+The requested casci level is equivalent to fci so no orbital optimization will be performed
+Data successfully written to new_data.json
