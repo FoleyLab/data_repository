@@ -1,0 +1,47 @@
+
+Host: chemh128rt3lws
+
+Timers On : Thu Jan 23 17:24:09 2025
+Timers Off: Thu Jan 23 17:25:25 2025
+
+Wall Time:       76.69 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      2.050u      0.150s      0.096w     10 calls
+Libint2ERI::Libint2ERI              :      0.500u      0.033s      0.047w     40 calls
+HF: Form core H                     :      0.933u      0.083s      0.044w     10 calls
+HF: Form S/X                        :      0.017u      0.017s      0.002w     10 calls
+HF: Guess                           :      6.900u      0.567s      0.328w     10 calls
+SAD Guess                           :      6.533u      0.533s      0.311w     10 calls
+HF: Form G                          :      0.167u      0.033s      0.009w    116 calls
+JK: D                               :      0.017u      0.000s      0.001w    116 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w    116 calls
+JK: JK                              :      0.150u      0.017s      0.006w    116 calls
+PK computes JK                      :      0.150u      0.017s      0.006w    116 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w    116 calls
+HF: Form F                          :      0.017u      0.000s      0.001w    116 calls
+HF: Form D                          :      0.000u      0.000s      0.000w    116 calls
+HF: DIIS                            :      4.300u      0.233s      0.278w    106 calls
+HF: Form C                          :      0.350u      0.067s      0.031w    106 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      2.050u      0.150s      0.096w     10 calls
+| Libint2ERI::Libint2ERI            :      0.467u      0.033s      0.027w     20 calls
+HF: Form core H                     :      0.933u      0.083s      0.044w     10 calls
+HF: Form S/X                        :      0.017u      0.017s      0.002w     10 calls
+HF: Guess                           :      6.900u      0.567s      0.328w     10 calls
+| SAD Guess                         :      6.533u      0.533s      0.311w     10 calls
+HF: Form G                          :      0.167u      0.033s      0.009w    116 calls
+| JK: D                             :      0.017u      0.000s      0.001w    116 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w    116 calls
+| JK: JK                            :      0.150u      0.017s      0.006w    116 calls
+| | PK computes JK                  :      0.150u      0.017s      0.006w    116 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w    116 calls
+HF: Form F                          :      0.017u      0.000s      0.001w    116 calls
+HF: Form D                          :      0.000u      0.000s      0.000w    116 calls
+HF: DIIS                            :      4.300u      0.233s      0.278w    106 calls
+HF: Form C                          :      0.350u      0.067s      0.031w    106 calls
+Libint2ERI::Libint2ERI              :      0.033u      0.000s      0.020w     20 calls
+
+**************************************************************************************
