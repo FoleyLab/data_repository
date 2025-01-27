@@ -48,7 +48,7 @@ cavity_options = {
     'davidson_maxiter':100,
     'davidson_indim':8,
     'test_mode': False,
-    'nact_orbs' : 5,
+    'nact_orbs' : 4,
     'nact_els' : 4
 }
 
