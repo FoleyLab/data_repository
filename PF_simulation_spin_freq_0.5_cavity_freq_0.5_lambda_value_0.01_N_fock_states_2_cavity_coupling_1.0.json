@@ -1,0 +1,19 @@
+{
+    "spin_frequency": 0.5,
+    "cavity_frequency": 0.5,
+    "cavity_coupling": 1.0,
+    "ground_state_permanent_dipole": 1.0,
+    "excited_state_permanent_dipole": 0.5,
+    "transition_dipole": 1.5,
+    "number_of_fock_states": 2,
+    "use_rabi": false,
+    "lambda_value": 0.01,
+    "energies": [
+        [
+            5.6280646797240465e-05,
+            0.4926625626741281,
+            0.5076623313893631,
+            1.0001938252897116
+        ]
+    ]
+}
