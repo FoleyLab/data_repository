@@ -5,7 +5,11 @@ def analyze_single_data(filename, level_of_theory, photon_state_type, n_active_e
     data = {
         'level_of_theory': level_of_theory,
         'basis_set': '6-31G',
-        'molecular_zmatrix': "O\nH 1  1.0",
+        'molecular_z_matrix': "O\nH 1  0.9",
+        'molecular_charge': -1,
+        'spin_multiplicity' : 1,
+        'cavity_frequency' : 0.219,
+        'coupling_vector' : [0, 0, 0.05],
         'photon_state_type': photon_state_type,
         'n_photon_states': [],
         'energies': {}
@@ -51,11 +55,11 @@ def analyze_single_data(filename, level_of_theory, photon_state_type, n_active_e
 
 if __name__ == "__main__":
     # Specify the details for your data file
-    file_to_analyze = 'pn_casscf_2e2o.txt'  # Replace with your actual filename
-    theory_level = 'casscf'
-    photon_type = 'photon number'
-    n_electrons = 6
-    n_orbitals = 6
+    file_to_analyze = 'cs_casscf_2e2o.txt'  # Replace with your actual filename
+    theory_level = 'qed-casscf'
+    photon_type = 'coherent state'
+    n_electrons = 2
+    n_orbitals = 2
 
     analysis_result = analyze_single_data(file_to_analyze, theory_level, photon_type, n_electrons, n_orbitals)
 
