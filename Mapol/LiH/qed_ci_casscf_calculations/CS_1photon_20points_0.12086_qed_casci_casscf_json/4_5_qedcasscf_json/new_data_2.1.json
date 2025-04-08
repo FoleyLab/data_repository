@@ -1,0 +1,17 @@
+{
+    "molecular_geometry": {
+        "z-matrix": "\nLi\nH 1 2.1\nsymmetry c1\n"
+    },
+    "return_results": {
+        "casci_energies": [
+            -7.958265939358063,
+            -7.870020763251464,
+            -7.8281417949857826
+        ],
+        "casscf_energies": [
+            -7.99742072951033,
+            -7.902106418515819,
+            -7.868756787283891
+        ]
+    }
+}
