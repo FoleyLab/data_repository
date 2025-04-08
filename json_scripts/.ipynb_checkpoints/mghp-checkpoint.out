@@ -1,0 +1,535 @@
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  5, 4, 3
+    Auxiliary basis highest AM E, G, H:  6, 5, 4
+    Onebody   basis highest AM E, G, H:  6, 5, 4
+    Solid Harmonics ordering:            gaussian
+
+*** tstart() called on CHEM9LYY31VAWS
+*** at Thu Feb 13 12:04:57 2025
+
+   => Loading Basis Set <=
+
+    Name: CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry MG         line   353 file /Users/jfoley19/Code/psi4/objdir-Release/stage/share/psi4/basis/cc-pvdz.gbs 
+    atoms 2 entry H          line    22 file /Users/jfoley19/Code/psi4/objdir-Release/stage/share/psi4/basis/cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 1, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         MG           0.000000000000     0.000000000000    -0.044356957826    23.985041697000
+         H            0.000000000000     0.000000000000     1.055643042174     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =     14.40461  C =     14.40461 [cm^-1]
+  Rotational constants: A = ************  B = 431839.41958  C = 431839.41958 [MHz]
+  Nuclear repulsion =    5.772842298218182
+
+  Charge       = 1
+  Multiplicity = 1
+  Electrons    = 12
+  Nalpha       = 6
+  Nbeta        = 6
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVDZ
+    Blend: CC-PVDZ
+    Number of shells: 11
+    Number of basis functions: 23
+    Number of Cartesian functions: 24
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1 entry MG         line   576 file /Users/jfoley19/Code/psi4/objdir-Release/stage/share/psi4/basis/def2-universal-jkfit.gbs 
+    atoms 2 entry H          line    51 file /Users/jfoley19/Code/psi4/objdir-Release/stage/share/psi4/basis/cc-pvdz-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.001 GiB; user supplied 0.366 GiB. 
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               375
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVDZ AUX)
+    Blend: CC-PVDZ-JKFIT + DEF2-UNIVERSAL-JKFIT
+    Number of shells: 43
+    Number of basis functions: 135
+    Number of Cartesian functions: 162
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  Minimum eigenvalue in the overlap matrix is 4.8403062300E-03.
+  Reciprocal condition number of the overlap matrix is 1.4822441660E-03.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         23      23 
+   -------------------------
+    Total      23      23
+   -------------------------
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RHF iter SAD:  -199.83915256666435   -1.99839e+02   0.00000e+00 
+   @DF-RHF iter   1:  -199.75190007966376    8.72525e-02   4.31622e-03 ADIIS/DIIS
+   @DF-RHF iter   2:  -199.76191056782963   -1.00105e-02   8.47745e-04 ADIIS/DIIS
+   @DF-RHF iter   3:  -199.76273898260337   -8.28415e-04   2.48287e-04 ADIIS/DIIS
+   @DF-RHF iter   4:  -199.76281858721526   -7.96046e-05   2.67538e-05 DIIS
+   @DF-RHF iter   5:  -199.76281948238847   -8.95173e-07   3.47484e-06 DIIS
+   @DF-RHF iter   6:  -199.76281949746897   -1.50805e-08   2.52040e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A    -49.326957     2A     -4.085454     3A     -2.611139  
+       4A     -2.594734     5A     -2.594734     6A     -0.677041  
+
+    Virtual:                                                              
+
+       7A     -0.226173     8A     -0.146837     9A     -0.146837  
+      10A     -0.048175    11A     -0.002084    12A      0.059132  
+      13A      0.059132    14A      0.126400    15A      0.195937  
+      16A      0.195937    17A      0.210370    18A      0.210370  
+      19A      0.410469    20A      0.970395    21A      1.543631  
+      22A      1.543631    23A      1.618835  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     6 ]
+    NA   [     6 ]
+    NB   [     6 ]
+
+  @DF-RHF Final Energy:  -199.76281949746897
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              5.7728422982181815
+    One-Electron Energy =                -287.2912164017006376
+    Two-Electron Energy =                  81.7555546060134759
+    Total Energy =                       -199.7628194974689961
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :         -2.4930676            0.9890062           -1.5040614
+ Magnitude           :                                                    1.5040614
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on CHEM9LYY31VAWS at Thu Feb 13 12:04:57 2025
+Module time:
+	user time   =       0.20 seconds =       0.00 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =       0.20 seconds =       0.00 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+
+Scratch directory: /tmp/
+ MINTS: Wrapper to libmints.
+   by Justin Turney
+
+   Calculation information:
+      Number of threads:                 1
+      Number of atoms:                   2
+      Number of AO shells:              11
+      Number of SO shells:              11
+      Number of primitives:             60
+      Number of atomic orbitals:        24
+      Number of basis functions:        23
+
+      Number of irreps:                  1
+      Integral cutoff                 1.00e-12
+      Number of functions per irrep: [  23 ]
+
+ OEINTS: Overlap, kinetic, potential, dipole, and quadrupole integrals
+         stored in file 35.
+
+      Computing two-electron integrals...done
+      Computed 8381 non-zero two-electron integrals.
+        Stored in file 33.
+
+
+         ---------------------------------------------------------
+                          Configuration Interaction
+                            (a 'D E T C I' module)
+
+                 C. David Sherrill, Daniel G. A. Smith, and
+                              Matt L. Leininger
+         ---------------------------------------------------------
+
+
+   ==> Parameters <==
+
+    EX LEVEL       =        8      H0 BLOCKSIZE  =     1000
+    VAL EX LEVEL   =        0      H0 GUESS SIZE =     1000
+    H0COUPLINGSIZE =        0      H0 COUPLING   =       NO
+    MAXITER        =       24      NUM PRINT     =       20
+    NUM ROOTS      =        3      ICORE         =        1
+    PRINT LVL      =        1      FCI           =      YES
+    R CONV         = 1.00e-04      MIXED         =      YES
+    E CONV         = 1.00e-06      MIXED4        =      YES
+    R4S            =       NO      REPL OTF      =       NO
+    DIAG METHOD    =      SEM      FOLLOW ROOT   =        0
+    PRECONDITIONER = DAVIDSON      UPDATE        = DAVIDSON
+    S              =   0.0000      Ms0           =      YES
+    GUESS VECTOR   =  H0BLOCK      OPENTYPE      =     NONE
+    COLLAPSE SIZE  =        1      HD AVG        = EVANGELISTI
+    MAX NUM VECS   =       75      REF SYM       =     AUTO
+    IOPEN        =       NO
+
+    EX ALLOW       =  1  1  1  1  1  1  1  1 
+    STATE AVERAGE  =  0(1.00) 
+
+   ==> CI Orbital and Space information <==
+
+   ------------------------------------
+               Space    Total     A
+   ------------------------------------
+                 Nso       23    23
+                 Nmo       23    23
+               Ndocc        6     6
+               Nsocc        0     0
+   ------------------------------------
+              CI Spaces
+   ------------------------------------
+        Dropped DOCC        2     2
+              Active       12    12
+        Dropped UOCC        9     9
+   ------------------------------------
+
+   ==> Setting up CI strings <==
+
+    There are 495 alpha and 495 beta strings
+    The CI space requires 245025 (2.45E+05) determinants and 1 blocks
+
+   ==> Transforming CI integrals <==
+
+	Presorting SO-basis two-electron integrals.
+	Sorting File: SO Ints (nn|nn) nbuckets = 1
+	Constructing frozen core operators
+	Starting first half-transformation.
+	Sorting half-transformed integrals.
+	First half integral transformation complete.
+	Starting second half-transformation.
+	Two-electron integral transformation complete.
+
+   ==> Starting CI iterations <==
+
+    H0 Block Eigenvalue = -199.77219565
+
+    Simultaneous Expansion Method (Block Davidson Method)
+    Using 3 initial trial vectors
+
+(sem_iter): H0block_->H0b_diag[1][1] - H0block_->H0b_diag[2][1] = -0.675299 - 0.675299 = -1.350597 > 1.0E-8
+(sem_iter): H0block_->H0b_diag[3][3] - H0block_->H0b_diag[4][3] = -0.643791 - 0.643791 = -1.287581 > 1.0E-8
+(sem_iter): H0block_->H0b_diag[3][4] - H0block_->H0b_diag[4][4] = 0.158632 - -0.158632 = 0.317264 > 1.0E-8
+     Iter   Root       Total Energy       Delta E      C RMS
+
+   @CI  0:     0   -199.772195648442   -4.2422E+01   9.6744E-02  
+   @CI  0:     1   -199.551903139642   -4.2202E+01   8.5065E-02  
+   @CI  0:     2   -199.489428706816   -4.2139E+01   8.7673E-02  
+
+   @CI  1:     0   -199.773954979773   -1.7593E-03   1.8010E-02  
+   @CI  1:     1   -199.553237208144   -1.3341E-03   1.5351E-02  
+   @CI  1:     2   -199.490849430235   -1.4207E-03   1.5714E-02  
+
+   @CI  2:     0   -199.774007548678   -5.2569E-05   3.8448E-03  
+   @CI  2:     1   -199.553275401407   -3.8193E-05   3.5016E-03  
+   @CI  2:     2   -199.490888950437   -3.9520E-05   3.4812E-03  
+
+   @CI  3:     0   -199.774009401529   -1.8529E-06   8.7408E-04  
+   @CI  3:     1   -199.553277109353   -1.7079E-06   9.3880E-04  
+   @CI  3:     2   -199.490890591005   -1.6406E-06   8.9795E-04  
+
+   @CI  4:     0   -199.774009482019   -8.0490E-08   2.1835E-04  
+   @CI  4:     1   -199.553277205689   -9.6337E-08   2.4830E-04  
+   @CI  4:     2   -199.490890674451   -8.3446E-08   2.2342E-04  
+
+   @CI  5:     0   -199.774009486613   -4.5937E-09   5.5691E-05 c
+   @CI  5:     1   -199.553277212478   -6.7889E-09   7.8170E-05 c
+   @CI  5:     2   -199.490890679082   -4.6313E-09   5.6993E-05 c
+
+
+   ==> Energetics <==
+
+    SCF energy =         -199.762819497468996
+    Total CI energy =    -199.774009486612727
+
+   ==> FCI root 0 information <==
+
+    FCI Root 0 energy =  -199.774009486612727
+
+   The 20 most important determinants:
+
+    *   1    0.991818  (    0,    0)  3AX 4AX 5AX 6AX 
+    *   2   -0.064659  (    1,    1)  3AX 4AX 5AX 7AX 
+    *   3   -0.040028  (    1,    0)  3AX 4AX 5AX 6AB 7AA 
+    *   4   -0.040028  (    0,    1)  3AX 4AX 5AX 6AA 7AB 
+    *   5   -0.030525  (    1,   70)  3AX 4AX 5AX 7AA 11AB 
+    *   6   -0.030525  (   70,    1)  3AX 4AX 5AX 7AB 11AA 
+    *   7   -0.028303  (   35,    1)  3AX 4AX 5AX 7AB 10AA 
+    *   8   -0.028303  (    1,   35)  3AX 4AX 5AX 7AA 10AB 
+    *   9   -0.023851  (    1,  330)  3AX 4AX 5AX 7AA 14AB 
+    *  10   -0.023851  (  330,    1)  3AX 4AX 5AX 7AB 14AA 
+    *  11   -0.019041  (   35,   35)  3AX 4AX 5AX 10AX 
+    *  12   -0.018282  (    5,    5)  3AX 4AX 5AX 8AX 
+    *  13   -0.018282  (   15,   15)  3AX 4AX 5AX 9AX 
+    *  14   -0.018025  (  330,  330)  3AX 4AX 5AX 14AX 
+    *  15   -0.015300  (   70,   70)  3AX 4AX 5AX 11AX 
+    *  16    0.013422  (    5,  126)  3AX 4AX 5AX 8AA 12AB 
+    *  17    0.013422  (  126,    5)  3AX 4AX 5AX 8AB 12AA 
+    *  18   -0.013422  (  210,   15)  3AX 4AX 5AX 9AB 13AA 
+    *  19   -0.013422  (   15,  210)  3AX 4AX 5AX 9AA 13AB 
+    *  20   -0.013118  (   70,  330)  3AX 4AX 5AX 11AA 14AB 
+
+
+   ==> FCI root 1 information <==
+
+    FCI Root 1 energy =  -199.553277212478122
+
+   The 20 most important determinants:
+
+    *   1   -0.662152  (    1,    0)  3AX 4AX 5AX 6AB 7AA 
+    *   2   -0.662152  (    0,    1)  3AX 4AX 5AX 6AA 7AB 
+    *   3   -0.264933  (    1,    1)  3AX 4AX 5AX 7AX 
+    *   4   -0.100926  (    0,   70)  3AX 4AX 5AX 6AA 11AB 
+    *   5   -0.100926  (   70,    0)  3AX 4AX 5AX 6AB 11AA 
+    *   6   -0.083110  (    0,    0)  3AX 4AX 5AX 6AX 
+    *   7   -0.079839  (    1,   70)  3AX 4AX 5AX 7AA 11AB 
+    *   8   -0.079839  (   70,    1)  3AX 4AX 5AX 7AB 11AA 
+    *   9   -0.048556  (   35,    1)  3AX 4AX 5AX 7AB 10AA 
+    *  10   -0.048556  (    1,   35)  3AX 4AX 5AX 7AA 10AB 
+    *  11    0.045078  (   35,    0)  3AX 4AX 5AX 6AB 10AA 
+    *  12    0.045078  (    0,   35)  3AX 4AX 5AX 6AA 10AB 
+    *  13   -0.032146  (    1,  330)  3AX 4AX 5AX 7AA 14AB 
+    *  14   -0.032146  (  330,    1)  3AX 4AX 5AX 7AB 14AA 
+    *  15   -0.020014  (   70,   70)  3AX 4AX 5AX 11AX 
+    *  16    0.014904  (   35,   35)  3AX 4AX 5AX 10AX 
+    *  17   -0.013319  (    5,    5)  3AX 4AX 5AX 8AX 
+    *  18   -0.013319  (   15,   15)  3AX 4AX 5AX 9AX 
+    *  19    0.009484  (    5,  126)  3AX 4AX 5AX 8AA 12AB 
+    *  20    0.009484  (  126,    5)  3AX 4AX 5AX 8AB 12AA 
+
+
+   ==> FCI root 2 information <==
+
+    FCI Root 2 energy =  -199.490890679082270
+
+   The 20 most important determinants:
+
+    *   1    0.653530  (   15,    0)  3AX 4AX 5AX 6AB 9AA 
+    *   2    0.653530  (    0,   15)  3AX 4AX 5AX 6AA 9AB 
+    *   3    0.147679  (  210,    0)  3AX 4AX 5AX 6AB 13AA 
+    *   4    0.147679  (    0,  210)  3AX 4AX 5AX 6AA 13AB 
+    *   5    0.143283  (   15,    1)  3AX 4AX 5AX 7AB 9AA 
+    *   6    0.143283  (    1,   15)  3AX 4AX 5AX 7AA 9AB 
+    *   7   -0.113972  (    5,    0)  3AX 4AX 5AX 6AB 8AA 
+    *   8   -0.113972  (    0,    5)  3AX 4AX 5AX 6AA 8AB 
+    *   9    0.075271  (   15,   35)  3AX 4AX 5AX 9AA 10AB 
+    *  10    0.075271  (   35,   15)  3AX 4AX 5AX 9AB 10AA 
+    *  11    0.063112  (   15,   70)  3AX 4AX 5AX 9AA 11AB 
+    *  12    0.063112  (   70,   15)  3AX 4AX 5AX 9AB 11AA 
+    *  13    0.053998  (   15,  330)  3AX 4AX 5AX 9AA 14AB 
+    *  14    0.053998  (  330,   15)  3AX 4AX 5AX 9AB 14AA 
+    *  15    0.043039  (  210,    1)  3AX 4AX 5AX 7AB 13AA 
+    *  16    0.043039  (    1,  210)  3AX 4AX 5AX 7AA 13AB 
+    *  17   -0.024988  (    5,    1)  3AX 4AX 5AX 7AB 8AA 
+    *  18   -0.024988  (    1,    5)  3AX 4AX 5AX 7AA 8AB 
+    *  19    0.023796  (  126,    0)  3AX 4AX 5AX 6AB 12AA 
+    *  20    0.023796  (    0,  126)  3AX 4AX 5AX 6AA 12AB 
+
+		 "A good bug is a dead bug" 
+
+			 - Starship Troopers
+
+		 "I didn't write FORTRAN.  That's the problem."
+
+			 - Edward Valeev
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  5, 4, 3
+    Auxiliary basis highest AM E, G, H:  6, 5, 4
+    Onebody   basis highest AM E, G, H:  6, 5, 4
+    Solid Harmonics ordering:            gaussian
+
+*** tstart() called on CHEM9LYY31VAWS
+*** at Thu Feb 13 12:04:59 2025
+
+   => Loading Basis Set <=
+
+    Name: CC-PVTZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry MG         line   465 file /Users/jfoley19/Code/psi4/objdir-Release/stage/share/psi4/basis/cc-pvtz.gbs 
+    atoms 2 entry H          line    23 file /Users/jfoley19/Code/psi4/objdir-Release/stage/share/psi4/basis/cc-pvtz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 1, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         MG           0.000000000000     0.000000000000    -0.044356957826    23.985041697000
+         H            0.000000000000     0.000000000000     1.055643042174     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =     14.40461  C =     14.40461 [cm^-1]
+  Rotational constants: A = ************  B = 431839.41958  C = 431839.41958 [MHz]
+  Nuclear repulsion =    5.772842298218182
+
+  Charge       = 1
+  Multiplicity = 1
+  Electrons    = 12
+  Nalpha       = 6
+  Nbeta        = 6
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVTZ
+    Blend: CC-PVTZ
+    Number of shells: 18
+    Number of basis functions: 48
+    Number of Cartesian functions: 54
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVTZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1 entry MG         line   576 file /Users/jfoley19/Code/psi4/objdir-Release/stage/share/psi4/basis/def2-universal-jkfit.gbs 
+    atoms 2 entry H          line    51 file /Users/jfoley19/Code/psi4/objdir-Release/stage/share/psi4/basis/cc-pvtz-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.003 GiB; user supplied 0.366 GiB. 
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               375
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVTZ AUX)
+    Blend: CC-PVTZ-JKFIT + DEF2-UNIVERSAL-JKFIT
+    Number of shells: 44
+    Number of basis functions: 142
+    Number of Cartesian functions: 172
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
