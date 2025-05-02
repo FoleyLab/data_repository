@@ -1,0 +1,54 @@
+{
+    "level_of_theory": "qed-casscf",
+    "basis_set": "cc-pVDZ",
+    "active_electrons" : 8,
+    "active_orbitals" : 12,
+    "molecular_z_matrix": "Mg\nH 1  2.0",
+    "molecular_charge": 1,
+    "spin_multiplicity": 1,
+    "cavity_frequency": 0.136,
+    "coupling_vector": [
+        0,
+        0,
+        0.05
+    ],
+    "photon_state_type": "coherent state",
+    "n_photon_states": [
+        1,
+        5,
+        10
+    ],
+    "energies": {
+        "1": {
+            "Eavg_energy_center" : -199.82153281290212,
+            "Eavg_energy_displaced" : -199.82153281289732,
+            "E0_energy_center": -199.91838347626944,
+            "E0_energy_displaced": -199.91838346157905,
+            "E1_energy_center": -199.79736007257935,
+            "E1_energy_displaced": -199.79736008124104,
+            "E2_energy_center": -199.7488548898576,
+            "E2_energy_displaced": -199.74885489587186
+            
+        },
+        "5": {
+            "Eavg_energy_center" : -199.82338820645893,
+            "Eavg_energy_displaced" : -199.82338820645663,
+            "E0_energy_center": -199.91848550608634,
+            "E0_energy_displaced": -199.91848550705737,
+            "E1_energy_center": -199.80187089342692,
+            "E1_energy_displaced": -199.80187089566672,
+            "E2_energy_center": -199.74980821986358,
+            "E2_energy_displaced": -199.74980821664587
+        },
+        "10": {
+            "Eavg_energy_center" : -199.82338821638507,
+            "Eavg_energy_displaced" : -199.82338821638487,
+            "E0_energy_center": -199.9184855059564,
+            "E0_energy_displaced": -199.91848551058084,
+            "E1_energy_center": -199.80187092187066,
+            "E1_energy_displaced": -199.80187092282486,
+            "E2_energy_center": -199.74980822132818,
+            "E2_energy_displaced": -199.74980821574894
+        }
+    }
+}
