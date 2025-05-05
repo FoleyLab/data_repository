@@ -862,6 +862,9 @@ def get_fcf_matrix(potential_1, potential_2,  r_data , N = 100, num_matrix_eleme
 
 
     vals1, vecs1 = get_fd_wfn(r_data_au, potential_1, use_5_point_stencil=True, N = N,mu_au=mu_au)
+    print("IN GET_FCF_MATRIX")
+    print("Getting fundamental Frequency")
+    print(F"Fundamental frequency: {vals1[1] - vals1[0]}")
     #vals1, vecs1 = get_fd_wfn(x, V_y)
 
 
