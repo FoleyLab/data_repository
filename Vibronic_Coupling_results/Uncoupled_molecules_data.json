@@ -504,8 +504,7 @@
         ]
     },
     "LiH": {
-        "Uncoupled_Surfaces": "blank",
-        "Uncoupled_surfaces": [
+        "Uncoupled_Surfaces": [
             [
                 -7.936657390748033,
                 -7.796989866753525,
@@ -1009,8 +1008,7 @@
         ]
     },
     "H2": {
-        "Uncoupled_Surfaces": "blank",
-        "Uncoupled_surfaces": [
+        "Uncoupled_Surfaces": [
             [
                 -0.42330462018678516,
                 0.26206956262845427,
