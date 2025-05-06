@@ -628,51 +628,55 @@ def get_fd_wfn(x, V_y: np.array, use_5_point_stencil = False, N = 100, mu_au = 1
 
     # create arrays for T, V, and H - we truncate the smallest and largest grid points where 
     # the centered finite difference derivatives cannot be defined
-    T = np.zeros((N-2, N-2))
-    V = np.zeros((N-2, N-2))
-    H = np.zeros((N-2, N-2))
+    
 
     # this uses the 3 point stencil; we can adapt to use a 5 point and it might improve accuracy
-
-
+    ### JJF Comment - initializing all arrays in conditionals since they have different sizes 
+    ### JJF Comment - depending on the stencil used 
     if not use_5_point_stencil:
+
+        T = np.zeros((N-2, N-2)) 
+        V = np.zeros((N-2, N-2))
+        H = np.zeros((N-2, N-2))
         for i in range(N-2):
             for j in range(N-2):
                 if i==j:
                     T[i,j]= -2
+                    # potential is offset by 1 for 3 point stencil 
+                    V[i,j]= V_y[i+1]
+
                 elif np.abs(i-j)==1:
                     T[i,j]=1
+                    V[i,j]=0
                 else:
                     T[i,j]=0
+                    V[i,j]=0
 
-        T = -T *( hbar ** 2 / (2 * mu_au* h**2))
-        #T =  (- (hbar ** 2) / (2* mu_kg)) *  (1 / ( h**2)) * joule_to_hartree  * T
+        # finish building H 
+        H = -T *( hbar ** 2 / (2 * mu_au* h**2)) + V
+        
 
 
     elif use_5_point_stencil:
-        for i in range(N-2):
-            for j in range(N-2):
+        T = np.zeros((N-4, N-4))
+        V = np.zeros((N-4, N-4))
+        H = np.zeros((N-4, N-4))
+        for i in range(N-4):
+            for j in range(N-4):
                 if i==j:
                     T[i,j]= -30
+                    # potential is offset by 2 for 5 point stencil
+                    V[i,j]= V_y[i+2]
                 elif np.abs(i-j)==1:
                     T[i,j]=16
+                    V[i,j]=0
                 elif np.abs(i-j)==2:
                     T[i,j]=-1
+                    V[i,j]=0
 
-        T = -T *  ((hbar ** 2) / (2* mu_au))*  (1 / ( 12 * h**2)) 
+        # finish building H
+        H = -T *  ((hbar ** 2) / (2* mu_au))*  (1 / ( 12 * h**2)) + V
 
-
-    for i in range(N-2):
-        for j in range(N-2):
-            if i==j:
-                V[i,j]= V_y[i+1]
-            else:
-                V[i,j]=0
-                
-    H = T + V
-
-    #print((-T * hbar ** 2 / (2 * mu_kg* h**2)) * (2.294 * 10 ** 17))
-    #print(V)
 
     vals, vecs = np.linalg.eigh(H)
 
