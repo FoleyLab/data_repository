@@ -62,7 +62,8 @@ calculation_data = {
     },
     "return_results" : {
 
-        "fci_energies" : [],
+        "casci_energies" : [],
+        "casscf_energies" : []
     }
 
 }
