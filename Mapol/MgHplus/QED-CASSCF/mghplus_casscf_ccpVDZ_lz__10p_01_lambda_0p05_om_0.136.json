@@ -131,7 +131,7 @@
             0,
             0.05
         ],
-        "number_of_photonic_fock_states": 10
+        "maximum_photonic_occupation": 10
     },
     "molecule": {
         "symbols": [
