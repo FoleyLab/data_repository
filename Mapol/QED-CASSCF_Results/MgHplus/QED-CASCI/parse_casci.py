@@ -88,7 +88,7 @@ def format_data_for_qcarchive(casci_data):
         "extras": {
             "cavity_frequency" : 0.136,
             "cavity_coupling_vector" : [0, 0, 0.05],
-            "number_of_photonic_fock_states" : 10,
+            "maximum_photon_occupation" : 10,
             #  ... (Add any other DMRG-specific data)
         },
         "molecule": {  # If you have molecule info, add it
@@ -129,7 +129,7 @@ def write_json(data, filename):
 
 if __name__ == "__main__":
     casci_output_file = "energies_0_05.dat"  # Replace with your DMRG output filename
-    json_output_file = "mghplus_casci_ccpVDZ_lz__10p_05_lambda_0p05_om_0.136.json"
+    json_output_file = "mghplus_casci_ccpVDZ_lz_0.05_om_0.136.json"
 
     raw_data = read_casci_data(casci_output_file)
 

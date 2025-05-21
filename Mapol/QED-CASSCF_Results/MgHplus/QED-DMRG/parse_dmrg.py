@@ -86,9 +86,9 @@ def format_data_for_qcarchive(dmrg_data):
             #  ... (Add other calculated properties)
         },
         "extras": {
-            "cavity_frequency" : 0.,
-            "cavity_coupling_vector" : [0, 0, 0.0],
-            "number_of_photonic_fock_states" : 1,
+            "cavity_frequency" : 0.136,
+            "cavity_coupling_vector" : [0, 0, 0.05],
+            "maximum_photon_occupation" : 10,
             #  ... (Add any other DMRG-specific data)
         },
         "molecule": {  # If you have molecule info, add it
@@ -128,8 +128,8 @@ def write_json(data, filename):
 
 
 if __name__ == "__main__":
-    dmrg_output_file = "energies.dat"
-    json_output_file = "mghplus_dmrg_ccpVDZ.json"
+    dmrg_output_file = "energies_0-05.dat"
+    json_output_file = "mghplus_dmrg_ccpVDZ_lz_0.05_om_0.136.json"
 
     raw_data = read_dmrg_data(dmrg_output_file)
 
