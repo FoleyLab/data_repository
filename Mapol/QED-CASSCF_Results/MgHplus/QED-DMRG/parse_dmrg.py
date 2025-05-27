@@ -128,8 +128,8 @@ def write_json(data, filename):
 
 
 if __name__ == "__main__":
-    dmrg_output_file = "energies_0-05.dat"
-    json_output_file = "mghplus_dmrg_ccpVDZ_lz_0.05_om_0.136.json"
+    dmrg_output_file = "energies_0-00_prec.txt"
+    json_output_file = "mghplus_dmrg_ccpVDZ.json"
 
     raw_data = read_dmrg_data(dmrg_output_file)
 
