@@ -10,3 +10,7 @@
 
 - The initial guess for the right block was done using the CI-DEAS warm-up procedure.
 
+- The QED-DMRG data with additional details of the cavity (if present) can be found in the following json files:
+  - mghplus_dmrg_ccpVDZ.json
+  - mghplus_dmrg_ccpVDZ_lz_0.01_om_0.136.json
+  - mghplus_dmrg_ccpVDZ_lz_0.05_om_0.136.json
