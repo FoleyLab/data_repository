@@ -4,7 +4,7 @@
 
 - Atomic Orbital basis: cc-pVDZ
 
-- Guess Orbitals for SA-QED-CASSCF come from [?]
+- Guess Orbitals for SA-QED-CASSCF come from [Nam Include Details Here]
 
 - State averaging is performed over the three lowest singlet states (ground state, lower polariton, upper polariton) with equal weighting
 
