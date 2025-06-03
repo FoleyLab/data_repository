@@ -12,7 +12,7 @@
 
 - State Averaging performed over first three singlet states for SA-QED-CASSCF
 
-- Guess Orbitals for SA-QED-CASSCF come from [Kenny Confirm]
+-  The guess orbitals are are chosen by saving previous orbitals [i.e. use the "save orbital" option ]that gave satisfactory results and using them as starting points for the next geometry calculation. This is ccomplished by using the ["use orbital geuss" option] for the particular geometry input file that you want to use the orbital geuss for.
 
 - Orbital Basis for QED-CASCI and QED-FCI comes from QED-RHF orbitals
 
