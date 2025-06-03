@@ -10,5 +10,9 @@
 
 - Photonic basis: coherent-state basis with basis states $\hat{U}_{\rm CS}|0\rangle, \hat{U}_{\rm CS}|1\rangle, ... \hat{U}_{\rm CS}|10\rangle$
 
-- The QED-CASSCF data with additional cavity details can be found in mghp_cs_casscf_8e_12o_ccpVDZ_lz_0.05_om_0.136.json
+- The QED-CASSCF data with additional cavity details can be found in 
+    - pn_casscf_2e2o.txt_analysis.json				
+    - cs_casscf_2e2o.txt_analysis.json	
+    - pn_casscf_6e6o.txt_analysis.json
+    - cs_casscf_6e6o.txt_analysis.json	
 
