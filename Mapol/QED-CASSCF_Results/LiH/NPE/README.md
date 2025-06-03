@@ -12,7 +12,7 @@
 
 - State Averaging performed over first three singlet states for SA-QED-CASSCF
 
-- Guess Orbitals for SA-QED-CASSCF come from []
+- Guess Orbitals for SA-QED-CASSCF come from [Kenny Confirm]
 
 - Orbital Basis for QED-CASCI and QED-FCI comes from QED-RHF orbitals
 
