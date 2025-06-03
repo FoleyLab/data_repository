@@ -10,7 +10,37 @@
 
 - The initial guess for the right block was done using the CI-DEAS warm-up procedure.
 
+- Atomic Orbital basis: cc-pVDZ
+
+- Active Space: (12e,23o,10ph)
+
+- Photonic basis: coherent-state basis with basis states $\hat{U}_{\rm CS}|0\rangle, \hat{U}_{\rm CS}|1\rangle, ... \hat{U}_{\rm CS}|10\rangle$
+
 - The QED-DMRG data with additional details of the cavity (if present) can be found in the following json files:
-  - mghplus_dmrg_ccpVDZ.json
-  - mghplus_dmrg_ccpVDZ_lz_0.01_om_0.136.json
-  - mghplus_dmrg_ccpVDZ_lz_0.05_om_0.136.json
+  - QED-DMRG/mghplus_dmrg_ccpVDZ.json
+  - QED-DMRG/mghplus_dmrg_ccpVDZ_lz_0.01_om_0.136.json
+  - QED-DMRG/mghplus_dmrg_ccpVDZ_lz_0.05_om_0.136.json
+
+# Details of the QED-CAS Calculations
+
+- The QED-CASCI, QED-CASSCF calculations were carried out using the  [qed-ci program](https://github.com/mapol-chem/qed-ci/tree/casscf) (casscf branch on linux systems, mac_casscf on mac systems)
+
+- Atomic Orbital basis: cc-pVDZ
+
+- Guess Orbitals for SA-QED-CASSCF come from QED-RHF
+
+- Orbital Basis for QED-CASCI comes from QED-RHF
+
+- Photonic basis: coherent-state basis with basis states $\hat{U}_{\rm CS}|0\rangle, \hat{U}_{\rm CS}|1\rangle, ... \hat{U}_{\rm CS}|10\rangle$
+
+- The QED-CASSCF data with additional details of the cavity (if present) can be found in the following json files:
+  - QED-CASSCF/mghplus_casscf_ccpVDZ_lz_0_om_0.json
+  - QED-CASSCF/mghplus_casscf_ccpVDZ_lz_0.01_om_0.136.json
+  - QED-CASSCF/mghplus_casscf_ccpVDZ_lz_0.05_om_0.136.json
+
+- The QED-CASCI data with additional details of the cavity (if present) can be found in the following json files:
+  - QED-CASCI/mghplus_casci_ccpVDZ_lz_0_om_0.json
+  - QED-CASCI/mghplus_casci_ccpVDZ_lz_0.01_om_0.136.json
+  - QED-CASCI/mghplus_casci_ccpVDZ_lz_0.05_om_0.136.json
+
+

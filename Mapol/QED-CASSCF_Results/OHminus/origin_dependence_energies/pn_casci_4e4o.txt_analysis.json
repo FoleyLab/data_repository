@@ -1,0 +1,42 @@
+{
+    "level_of_theory": "qed-casci",
+    "basis_set": "6-31G",
+    "molecular_z_matrix": "O\nH 1  0.9",
+    "molecular_charge": -1,
+    "spin_multiplicity": 1,
+    "cavity_frequency": 0.219,
+    "coupling_vector": [
+        0,
+        0,
+        0.05
+    ],
+    "photon_state_type": "photon number",
+    "n_photon_states": [
+        1,
+        5,
+        20,
+        50
+    ],
+    "energies": {
+        "1": {
+            "energy_center": -75.30036374089636,
+            "energy_displaced": -74.14602141470056,
+            "error": 1.1543423261958026
+        },
+        "5": {
+            "energy_center": -75.30038936296364,
+            "energy_displaced": -74.94667026337272,
+            "error": 0.3537190995909185
+        },
+        "20": {
+            "energy_center": -75.30038936296368,
+            "energy_displaced": -75.30030835340833,
+            "error": 8.100955535894627e-05
+        },
+        "50": {
+            "energy_center": -75.30038936296368,
+            "energy_displaced": -75.30038936296364,
+            "error": 4.263256414560601e-14
+        }
+    }
+}

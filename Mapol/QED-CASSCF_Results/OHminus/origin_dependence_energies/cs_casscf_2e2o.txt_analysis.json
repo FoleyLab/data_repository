@@ -1,0 +1,42 @@
+{
+    "level_of_theory": "qed-casscf",
+    "basis_set": "6-31G",
+    "molecular_z_matrix": "O\nH 1  0.9",
+    "molecular_charge": -1,
+    "spin_multiplicity": 1,
+    "cavity_frequency": 0.219,
+    "coupling_vector": [
+        0,
+        0,
+        0.05
+    ],
+    "photon_state_type": "coherent state",
+    "n_photon_states": [
+        1,
+        5,
+        20,
+        50
+    ],
+    "energies": {
+        "1": {
+            "energy_center": -75.3209963482391,
+            "energy_displaced": -75.32099634823916,
+            "error": -5.684341886080802e-14
+        },
+        "5": {
+            "energy_center": -75.3209967581153,
+            "energy_displaced": -75.32099675811429,
+            "error": 1.0089706847793423e-12
+        },
+        "20": {
+            "energy_center": -75.32099675811453,
+            "energy_displaced": -75.32099675811608,
+            "error": -1.5489831639570184e-12
+        },
+        "50": {
+            "energy_center": -75.32099675811541,
+            "energy_displaced": -75.32099675811587,
+            "error": -4.547473508864641e-13
+        }
+    }
+}
