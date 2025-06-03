@@ -8,7 +8,7 @@
 
 - Guess Orbitals for PN-QED-CASSCF come from RHF
 
-- State averaging is [Add if relevant]
+- State averaging is [Nam Add if relevant]
 
 - Photonic basis: coherent-state basis with basis states $\hat{U}_{\rm CS}|0\rangle, \hat{U}_{\rm CS}|1\rangle$
 
