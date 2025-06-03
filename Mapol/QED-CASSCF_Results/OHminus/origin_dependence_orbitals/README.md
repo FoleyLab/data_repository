@@ -4,11 +4,13 @@
 
 - Atomic Orbital basis: 6-31G
 
-- Guess Orbitals for CS-QED-CASSCF come from QED-RHF
+- Guess Orbitals for CS-QED-CASSCF(2e,2o) come from random orbitals 
+- Guess Orbitals for CS-QED-CASSCF(6e,6o) come from QED-HF orbitals 
 
-- Guess Orbitals for PN-QED-CASSCF come from RHF
+- Guess Orbitals for PN-QED-CASSCF(2e,2o) come from random orbitals
+- Guess Orbitals for PN-QED-CASSCF(6e,6o) come from    RHF orbitals
 
-- State averaging is [Nam Add if relevant]
+- State averaging is 100% ground state
 
 - Photonic basis: coherent-state basis with basis states $\hat{U}_{\rm CS}|0\rangle, \hat{U}_{\rm CS}|1\rangle$
 
