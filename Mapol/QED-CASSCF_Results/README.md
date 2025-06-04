@@ -1,4 +1,6 @@
-The following subfolders contain data in support of the submission "Modeling Strong Light-Matter Coupling in Correlated Systems: State-Averaged Cavity Quantum Electrodynamics Complete Active Space Self-Consistent Field Theory" by Nam Vu, Kenny Ampoh, Mikuláš Matoušek, Libor Veis, Niranjan Govind, and Jonathan J. Foley IV.
+The following folders contain data in support of the submission "Modeling Strong Light-Matter Coupling in Correlated Systems: State-Averaged Cavity Quantum Electrodynamics Complete Active Space Self-Consistent Field Theory" by Nam Vu, Kenny Ampoh, Mikuláš Matoušek, Libor Veis, Niranjan Govind, and Jonathan J. Foley IV.
+
+Each subfolder contains README.md files with additional computational details on the specific systems (lithium hydride (LiH), magnesium hydride cation (MgHplus), and hydroxide anion (OHminus).
 
 For questions, please contact Jay Foley at jfoley19@charlotte.edu
 ```
