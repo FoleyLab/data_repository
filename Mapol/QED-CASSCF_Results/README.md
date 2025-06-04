@@ -1,9 +1,5 @@
 The following subfolders contain data in support of the submission "Modeling Strong Light-Matter Coupling in Correlated Systems: State-Averaged Cavity Quantum Electrodynamics Complete Active Space Self-Consistent Field Theory" by Nam Vu, Kenny Ampoh, Mikuláš Matoušek, Libor Veis, Niranjan Govind, and Jonathan J. Foley IV.
 
-The directory structure follows below, and each subfolder contains a REAMDE.md file with more info about the contents.  
-
-For questions, please contact Jay Foley at jfoley19@charlotte.edu
-
 .
 ├── LiH
 │   ├── NPE
