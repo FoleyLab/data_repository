@@ -2,6 +2,8 @@ The following folders contain data in support of the submission "Modeling Strong
 
 Each subfolder contains README.md files with additional computational details on the specific systems (lithium hydride (LiH), magnesium hydride cation (MgHplus), and hydroxide anion (OHminus).
 
+Uploaded to Zenodo on 6/4/2024 with doi 10.5281/zenodo.15595754
+
 For questions, please contact Jay Foley at jfoley19@charlotte.edu
 
 ```
