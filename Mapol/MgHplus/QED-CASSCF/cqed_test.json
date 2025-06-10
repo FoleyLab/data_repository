@@ -1,0 +1,16 @@
+{
+    "molecule_id": "LiH",
+    "basis_set": "cc-pVDZ",
+    "method": "CQED-CI",
+    "energies": [
+        -142.79305050541936,
+        -142.65798532637504,
+        -142.52288888939756
+    ],
+    "photon_frequency": 0.136,
+    "coupling_vector": [
+        0,
+        0,
+        0.1
+    ]
+}

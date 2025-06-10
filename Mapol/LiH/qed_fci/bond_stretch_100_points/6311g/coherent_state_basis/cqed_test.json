@@ -1,0 +1,17 @@
+{
+    "molecule_id": "LiH",
+    "basis_set": "6-311G**",
+    "method": "CQED-CI",
+    "energies": [
+        -7.93665739074824,
+        -7.809724135587908,
+        -7.796989866753798,
+        -7.776144043646958
+    ],
+    "photon_frequency": 0.0,
+    "coupling_vector": [
+        0,
+        0,
+        0.0
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "repo": {
+        "repository_url": "https://github.com/mapol-chem/qed-ci",
+        "branch": "photon_number_basis",
+        "commit": "edc918595761fee80a305087184f580b699b21b3"
+    },
+    "molecule": {
+        "molecule_name": "LiH",
+        "geometry": [
+            [
+                0.0,
+                0.0,
+                -0.33617527040571343
+            ],
+            [
+                0.0,
+                0.0,
+                2.340293976671292
+            ]
+        ],
+        "symbols": [
+            "Li",
+            "H"
+        ],
+        "z-matrix": "\nLi\nH 1 1.8\nsymmetry c1\n",
+        "bond_length": 1.8
+    },
+    "driver": "energy",
+    "model": {
+        "method": "qed-fci",
+        "orbital_basis": "sto-3g",
+        "photon_basis": "number_basis",
+        "number_of_photon_states": 8,
+        "lambda": [
+            0.0,
+            0.0,
+            0.05
+        ],
+        "omega": 0.12086
+    },
+    "return_result": [
+        -7.87590973089389,
+        -7.757739334233928,
+        -7.749337083496461,
+        -7.730508388120969,
+        -7.703015979044155,
+        -7.703015979044152,
+        -7.679724352279378
+    ],
+    "cavity_free_rhf_energy": -7.8613487929934305,
+    "qed_rhf_energy": -7.8613487929934305,
+    "cavity_free_fci_ground_state_energy": -7.879416966778056,
+    "bond_length": 1.4163265306122448
+}
