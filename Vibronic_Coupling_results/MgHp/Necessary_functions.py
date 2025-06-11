@@ -683,13 +683,6 @@ def get_fd_wfn(x, V_y: np.array, use_5_point_stencil = False, N = 100, mu_au = 1
     if np.average(vecs[:, 0]) < 0:
         vecs = vecs * -1
 
-    # if we used 5 point stencil, zero-pad the eigenvectors to match the original grid size
-    if use_5_point_stencil:
-        vecs = np.pad(vecs, ((1, 1), (0, 0)), mode='constant', constant_values=0)
-
-    #else:
-    #    vecs = np.pad(vecs, ((1, 1), (0, 0)), mode='constant', constant_values=0)
-
     return vals, vecs
 
 
