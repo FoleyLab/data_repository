@@ -1,0 +1,570 @@
+OMP: Info #276: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+
+Scratch directory: /tmp/
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  6, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on CHEM9QDFT72ALT
+*** at Tue Sep  9 14:07:28 2025
+
+   => Loading Basis Set <=
+
+    Name: 6-311G**
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    56 file /Users/jfoley19/miniconda3/envs/psi4_new/share/psi4/basis/6-311gss.gbs 
+    atoms 2 entry H          line    32 file /Users/jfoley19/miniconda3/envs/psi4_new/share/psi4/basis/6-311gss.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C_inf_v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         LI           0.000000000000     0.000000000000    -0.216038897413     7.016003436600
+         H            0.000000000000     0.000000000000     1.503961102587     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A = ************  B =      6.46616  C =      6.46616 [cm^-1]
+  Rotational constants: A = ************  B = 193850.53646  C = 193850.53646 [MHz]
+  Nuclear repulsion =    0.922983506982558
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 4
+  Nalpha       = 2
+  Nbeta        = 2
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-12
+  Density threshold  = 1.00e-12
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-311G**
+    Blend: 6-311G**
+    Number of shells: 12
+    Number of basis functions: 24
+    Number of Cartesian functions: 25
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  ==> Integral Setup <==
+
+  Using in-core PK algorithm.
+   Calculation information:
+      Number of atoms:                   2
+      Number of AO shells:              12
+      Number of primitives:             23
+      Number of atomic orbitals:        25
+      Number of basis functions:        24
+
+      Integral cutoff                 1.00e-12
+      Number of threads:                 1
+
+  Performing in-core PK
+  Using 90300 doubles for integral storage.
+  We computed 3081 shell quartets total.
+  Whereas there are 3081 unique shell quartets.
+
+  ==> DiskJK: Disk-Based J/K Matrices <==
+
+    J tasked:                  Yes
+    K tasked:                  Yes
+    wK tasked:                  No
+    Memory [MiB]:              375
+    Schwarz Cutoff:          1E-12
+
+    OpenMP threads:              1
+
+  Minimum eigenvalue in the overlap matrix is 4.1160898669E-02.
+  Reciprocal condition number of the overlap matrix is 1.1141818745E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A         24      24 
+   -------------------------
+    Total      24      24
+   -------------------------
+
+  ==> Iterations <==
+
+                        Total Energy        Delta E     RMS |[F,P]|
+
+   @RHF iter SAD:    -7.70079810196289   -7.70080e+00   0.00000e+00 
+   @RHF iter   1:    -7.96997309866670   -2.69175e-01   4.30298e-03 DIIS/ADIIS
+   @RHF iter   2:    -7.98378585030205   -1.38128e-02   6.20873e-04 DIIS/ADIIS
+   @RHF iter   3:    -7.98434906819816   -5.63218e-04   1.69755e-04 DIIS/ADIIS
+   @RHF iter   4:    -7.98441243990628   -6.33717e-05   4.65122e-05 DIIS
+   @RHF iter   5:    -7.98441894921507   -6.50931e-06   6.88938e-06 DIIS
+   @RHF iter   6:    -7.98441907179663   -1.22582e-07   5.77072e-07 DIIS
+   @RHF iter   7:    -7.98441907277665   -9.80025e-10   3.27213e-08 DIIS
+   @RHF iter   8:    -7.98441907277827   -1.61293e-12   3.93793e-09 DIIS
+   @RHF iter   9:    -7.98441907277831   -3.73035e-14   5.52357e-10 DIIS
+   @RHF iter  10:    -7.98441907277831   -2.66454e-15   8.49676e-11 DIIS
+   @RHF iter  11:    -7.98441907277831   -5.32907e-15   8.89870e-12 DIIS
+   @RHF iter  12:    -7.98441907277831    6.21725e-15   1.23433e-12 DIIS
+   @RHF iter  13:    -7.98441907277831    0.00000e+00   8.96925e-14 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A     -2.458585     2A     -0.294662  
+
+    Virtual:                                                              
+
+       3A     -0.003262     4A      0.040745     5A      0.040745  
+       6A      0.091344     7A      0.113544     8A      0.147882  
+       9A      0.147882    10A      0.225155    11A      0.523753  
+      12A      0.561667    13A      0.561667    14A      0.575283  
+      15A      0.575283    16A      0.587619    17A      0.587619  
+      18A      0.596620    19A      0.807236    20A      1.822412  
+      21A      1.822412    22A      2.096843    23A      2.886538  
+      24A      3.970159  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     2 ]
+    NA   [     2 ]
+    NB   [     2 ]
+
+  @RHF Final Energy:    -7.98441907277831
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              0.9229835069825580
+    One-Electron Energy =                 -12.3083104006651123
+    Two-Electron Energy =                   3.4009078209042478
+    Total Energy =                         -7.9844190727783069
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :         -4.0920637            1.6173115           -2.4747522
+ Magnitude           :                                                    2.4747522
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on CHEM9QDFT72ALT at Tue Sep  9 14:07:28 2025
+Module time:
+	user time   =       0.06 seconds =       0.00 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+Total time:
+	user time   =       0.06 seconds =       0.00 minutes
+	system time =       0.04 seconds =       0.00 minutes
+	total time  =          0 seconds =       0.00 minutes
+   => Loading Basis Set <=
+
+    Name: 6-311G**
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1 entry LI         line    56 file /Users/jfoley19/miniconda3/envs/psi4_new/share/psi4/basis/6-311gss.gbs 
+    atoms 2 entry H          line    32 file /Users/jfoley19/miniconda3/envs/psi4_new/share/psi4/basis/6-311gss.gbs 
+
+get_graph took 0.000010 seconds to execute 
+weight [0.125 0.125 0.125 0.125 0.125 0.125 0.125 0.125]
+
+Start SCF iterations:
+
+Canonical RHF One-electron energy = -12.3083104006631956
+CQED-RHF One-electron energy      = -12.2879121733007075
+Nuclear repulsion energy          = 0.9229835069825580
+1/2 <d_e>^2                       = 0.0209312316900625
+1/2 d_N^2                         = 0.0032696207780913
+ Completed QED-RHF in 0.09837913513183594 seconds
+ Completed 1HSO Build in 0.0002570152282714844 seconds
+number of MO 24
+ Completed ERI Build in 0.03397822380065918 seconds 
+339.8125
+339.8125
+mem_gkl 0.00439453125
+mem_twoeint 2.53125
+mem_d_cmo 0.00439453125
+ Completed 2D build in 0.0004088878631591797 seconds
+mem_D+T 2.42578125
+ Completed determinant list in 4.0699169635772705 seconds 
+memory required for sigma and CI vectors 10228.7109375
+buil_H_diag took 2.035495 seconds to execute 
+single_replacement_list took 0.006703 seconds to execute 
+
+ITERATION   1 subspace size  64
+build sigma took 2.657864 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.454808441109      -7.980716937929      false
+   1       0.417050161958      -7.868073520626      false
+   2       0.450539886770      -7.865444186784      false
+   3       0.432833006161      -7.828183547375      false
+   4       0.415996474191      -7.821241089654      false
+   5       0.417487061362      -7.818467786897      false
+   6       0.426999420821      -7.792027013558      false
+   7       0.426784269977      -7.791554349178      false
+unconverged roots
+   0   1   2   3   4   5   6   7
+
+
+ITERATION   2 subspace size  72
+build sigma took 1.878117 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.080993980219      -8.025650488865      false
+   1       0.114621566567      -7.916206578994      false
+   2       0.113712410779      -7.914624693926      false
+   3       0.134772661432      -7.889666656833      false
+   4       0.126375596229      -7.871654311880      false
+   5       0.126141173543      -7.871182886620      false
+   6       0.143016716881      -7.859159436292      false
+   7       0.144168756217      -7.859078149699      false
+unconverged roots
+   0   1   2   3   4   5   6   7
+
+
+ITERATION   3 subspace size  80
+build sigma took 2.632774 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.017649546044      -8.027054663445      false
+   1       0.030818135344      -7.919426211913      false
+   2       0.032102049901      -7.918003643441      false
+   3       0.035204408226      -7.893882959863      false
+   4       0.034960202413      -7.875867755802      false
+   5       0.040348216509      -7.875794180253      false
+   6       0.037123549846      -7.864159595624      false
+   7       0.037339439504      -7.864138489383      false
+unconverged roots
+   0   1   2   3   4   5   6   7
+
+
+ITERATION   4 subspace size  88
+build sigma took 3.821077 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.004787019721      -8.027136933939      false
+   1       0.009752765400      -7.919661720295      false
+   2       0.008847394983      -7.918261049518      false
+   3       0.010341687608      -7.894194916397      false
+   4       0.007004821587      -7.876110183395      false
+   5       0.007869084538      -7.876107213502      false
+   6       0.008970623786      -7.864457511831      false
+   7       0.009582000660      -7.864452718259      false
+unconverged roots
+   0   1   2   3   4   5   6   7
+
+
+ITERATION   5 subspace size  96
+build sigma took 3.586968 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.001103037700      -8.027142019041      false
+   1       0.002598683019      -7.919688312382      false
+   2       0.002704291061      -7.918283058658      false
+   3       0.003570765060      -7.894225817474      false
+   4       0.001807735153      -7.876123419225      false
+   5       0.002076409788      -7.876123034147      false
+   6       0.003360725730      -7.864482561166      false
+   7       0.003678631277      -7.864482022848      false
+unconverged roots
+   0   1   2   3   4   5   6   7
+
+
+ITERATION   6 subspace size 104
+build sigma took 3.249173 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.000250433419      -8.027142290775      false
+   1       0.000611718175      -7.919689875223      false
+   2       0.000752048673      -7.918284987211      false
+   3       0.001112265277      -7.894229283051      false
+   4       0.000553798884      -7.876124356115      false
+   5       0.000663367670      -7.876124314477      false
+   6       0.000889131525      -7.864485391019      false
+   7       0.000964981248      -7.864485352149      false
+unconverged roots
+   0   1   2   3   4   5   6   7
+
+
+ITERATION   7 subspace size 112
+build sigma took 2.831509 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.000065199753      -8.027142304942      false
+   1       0.000201301466      -7.919689996035      false
+   2       0.000207381592      -7.918285130822      false
+   3       0.000343899658      -7.894229598594      false
+   4       0.000161719462      -7.876124456553      false
+   5       0.000186621085      -7.876124453972      false
+   6       0.000251198665      -7.864485601884      false
+   7       0.000268678021      -7.864485599436      false
+unconverged roots
+   0   1   2   3   4   5   6   7
+
+
+ITERATION   8 subspace size 120
+build sigma took 3.204709 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.000016884520      -8.027142306058      false
+   1       0.000062356722      -7.919690009819      false
+   2       0.000071976010      -7.918285144760      false
+   3       0.000125712467      -7.894229636267      false
+   4       0.000040749295      -7.876124463676      false
+   5       0.000047684968      -7.876124463459      false
+   6       0.000060224181      -7.864485619316      false
+   7       0.000063503016      -7.864485619127      false
+unconverged roots
+   0   1   2   3   4   5   6   7
+
+
+ITERATION   9 subspace size 128
+build sigma took 3.624048 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.000004267991      -8.027142306130      true
+   1       0.000018292168      -7.919690011040      false
+   2       0.000024054172      -7.918285146352      false
+   3       0.000043667377      -7.894229641250      false
+   4       0.000012924183      -7.876124464254      false
+   5       0.000014322423      -7.876124464241      false
+   6       0.000015466836      -7.864485620358      false
+   7       0.000017184722      -7.864485620335      false
+unconverged roots
+   1   2   3   4   5   6   7
+
+
+ITERATION  10 subspace size 135
+build sigma took 3.946376 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.000003202840      -8.027142306133      true
+   1       0.000005189789      -7.919690011146      true
+   2       0.000006920337      -7.918285146519      true
+   3       0.000014833838      -7.894229641888      false
+   4       0.000003275950      -7.876124464305      true
+   5       0.000003655520      -7.876124464305      true
+   6       0.000004187031      -7.864485620435      true
+   7       0.000004793179      -7.864485620432      true
+unconverged roots
+   3
+
+
+ITERATION  11 subspace size 136
+build sigma took 3.649894 seconds to execute 
+  ROOT      RESIDUAL NORM        EIGENVALUE      CONVERGENCE
+   0       0.000003010862      -8.027142306133      true
+   1       0.000005189789      -7.919690011146      true
+   2       0.000005928841      -7.918285146523      true
+   3       0.000004067949      -7.894229641952      true
+   4       0.000003275951      -7.876124464305      true
+   5       0.000003655519      -7.876124464305      true
+   6       0.000004187031      -7.864485620435      true
+   7       0.000004793179      -7.864485620432      true
+converged
+Complete Davidson in 54.446775 seconds
+382.515625
+
+ACTIVE PART OF DETERMINANTS THAT HAVE THE MOST IMPORTANT CONTRIBUTIONS
+state 0 energy = -8.027142306133488 <S^2>= [[4.45774974e-16]]	singlet 1
+        amplitude       position          most important determinants              number of photon
+     -0.954871668191       000 alpha [0, 1]    beta [0, 1]    0 photon excitation ranke 0
+      0.229866207496     76176 alpha [0, 1]    beta [0, 1]    1 photon excitation ranke 0
+      0.047700741513      2216 alpha [0, 9]    beta [0, 9]    0 photon excitation ranke 0
+     -0.046307205104    152352 alpha [0, 1]    beta [0, 1]    2 photon excitation ranke 0
+      0.037088478322      2493 alpha [0, 10]    beta [0, 10]    0 photon excitation ranke 0
+      0.031728091639      4700 alpha [0, 18]    beta [0, 9]    0 photon excitation ranke 0
+      0.031728091639      2225 alpha [0, 9]    beta [0, 18]    0 photon excitation ranke 0
+      0.031122571145     12188 alpha [1, 23]    beta [1, 23]    0 photon excitation ranke 0
+      0.030503775962      1108 alpha [0, 5]    beta [0, 5]    0 photon excitation ranke 0
+      0.027788935388      4709 alpha [0, 18]    beta [0, 18]    0 photon excitation ranke 0
+      0.026598103403      2488 alpha [0, 10]    beta [0, 5]    0 photon excitation ranke 0
+state 1 energy = -7.91969001114636 <S^2>= [[2.]]	triplet 1
+        amplitude       position          most important determinants              number of photon
+     -0.595059338719       276 alpha [0, 2]    beta [0, 1]    0 photon excitation ranke 0
+      0.595059338718       001 alpha [0, 1]    beta [0, 2]    0 photon excitation ranke 0
+     -0.204781220024      1104 alpha [0, 5]    beta [0, 1]    0 photon excitation ranke 0
+      0.204781220024       004 alpha [0, 1]    beta [0, 5]    0 photon excitation ranke 0
+     -0.175403197789      1380 alpha [0, 6]    beta [0, 1]    0 photon excitation ranke 0
+      0.175403197788       005 alpha [0, 1]    beta [0, 6]    0 photon excitation ranke 0
+     -0.147143325552      2208 alpha [0, 9]    beta [0, 1]    0 photon excitation ranke 0
+      0.147143325552       008 alpha [0, 1]    beta [0, 9]    0 photon excitation ranke 0
+     -0.122983030565     76452 alpha [0, 2]    beta [0, 1]    1 photon excitation ranke 0
+      0.122983030565     76177 alpha [0, 1]    beta [0, 2]    1 photon excitation ranke 0
+     -0.074272382339       292 alpha [0, 2]    beta [0, 17]    0 photon excitation ranke 0
+state 2 energy = -7.918285146523002 <S^2>= [[3.20936711e-15]]	singlet 2
+        amplitude       position          most important determinants              number of photon
+      0.711244370903     76176 alpha [0, 1]    beta [0, 1]    1 photon excitation ranke 0
+      0.373532514001       001 alpha [0, 1]    beta [0, 2]    0 photon excitation ranke 0
+      0.373532514000       276 alpha [0, 2]    beta [0, 1]    0 photon excitation ranke 0
+     -0.222598142804    152352 alpha [0, 1]    beta [0, 1]    2 photon excitation ranke 0
+      0.143493805790       000 alpha [0, 1]    beta [0, 1]    0 photon excitation ranke 0
+      0.138988667085       005 alpha [0, 1]    beta [0, 6]    0 photon excitation ranke 0
+      0.138988667084      1380 alpha [0, 6]    beta [0, 1]    0 photon excitation ranke 0
+     -0.095217974121       277 alpha [0, 2]    beta [0, 2]    0 photon excitation ranke 0
+      0.090392687437     76177 alpha [0, 1]    beta [0, 2]    1 photon excitation ranke 0
+      0.090392687437     76452 alpha [0, 2]    beta [0, 1]    1 photon excitation ranke 0
+     -0.071250696878      1105 alpha [0, 5]    beta [0, 2]    0 photon excitation ranke 0
+state 3 energy = -7.894229641952389 <S^2>= [[1.16769488e-15]]	singlet 3
+        amplitude       position          most important determinants              number of photon
+     -0.539654881691     76176 alpha [0, 1]    beta [0, 1]    1 photon excitation ranke 0
+      0.473822398439       001 alpha [0, 1]    beta [0, 2]    0 photon excitation ranke 0
+      0.473822398439       276 alpha [0, 2]    beta [0, 1]    0 photon excitation ranke 0
+      0.236822693087    152352 alpha [0, 1]    beta [0, 1]    2 photon excitation ranke 0
+     -0.185336367255       000 alpha [0, 1]    beta [0, 1]    0 photon excitation ranke 0
+      0.140369989795       005 alpha [0, 1]    beta [0, 6]    0 photon excitation ranke 0
+      0.140369989795      1380 alpha [0, 6]    beta [0, 1]    0 photon excitation ranke 0
+     -0.116638967463       277 alpha [0, 2]    beta [0, 2]    0 photon excitation ranke 0
+      0.112230497283     76177 alpha [0, 1]    beta [0, 2]    1 photon excitation ranke 0
+      0.112230497283     76452 alpha [0, 2]    beta [0, 1]    1 photon excitation ranke 0
+      0.101654818050       004 alpha [0, 1]    beta [0, 5]    0 photon excitation ranke 0
+state 4 energy = -7.876124464305416 <S^2>= [[2.]]	triplet 2
+        amplitude       position          most important determinants              number of photon
+      0.568044605149       552 alpha [0, 3]    beta [0, 1]    0 photon excitation ranke 0
+     -0.568044605148       002 alpha [0, 1]    beta [0, 3]    0 photon excitation ranke 0
+     -0.363532807094       006 alpha [0, 1]    beta [0, 7]    0 photon excitation ranke 0
+      0.363532807094      1656 alpha [0, 7]    beta [0, 1]    0 photon excitation ranke 0
+     -0.087131974130       556 alpha [0, 3]    beta [0, 5]    0 photon excitation ranke 0
+      0.087131974129      1106 alpha [0, 5]    beta [0, 3]    0 photon excitation ranke 0
+     -0.071961272845       014 alpha [0, 1]    beta [0, 15]    0 photon excitation ranke 0
+      0.071961272845      3864 alpha [0, 15]    beta [0, 1]    0 photon excitation ranke 0
+     -0.069231987751      4418 alpha [0, 17]    beta [0, 3]    0 photon excitation ranke 0
+      0.069231987749       568 alpha [0, 3]    beta [0, 17]    0 photon excitation ranke 0
+     -0.066710217829       560 alpha [0, 3]    beta [0, 9]    0 photon excitation ranke 0
+state 5 energy = -7.876124464304816 <S^2>= [[2.]]	triplet 3
+        amplitude       position          most important determinants              number of photon
+      0.568044700356       003 alpha [0, 1]    beta [0, 4]    0 photon excitation ranke 0
+     -0.568044645846       828 alpha [0, 4]    beta [0, 1]    0 photon excitation ranke 0
+      0.363532721356      1932 alpha [0, 8]    beta [0, 1]    0 photon excitation ranke 0
+     -0.363532626664       007 alpha [0, 1]    beta [0, 8]    0 photon excitation ranke 0
+     -0.087132060736      1107 alpha [0, 5]    beta [0, 4]    0 photon excitation ranke 0
+      0.087132020764       832 alpha [0, 4]    beta [0, 5]    0 photon excitation ranke 0
+      0.071961370266      4140 alpha [0, 16]    beta [0, 1]    0 photon excitation ranke 0
+     -0.071961229273       015 alpha [0, 1]    beta [0, 16]    0 photon excitation ranke 0
+     -0.069232058187       844 alpha [0, 4]    beta [0, 17]    0 photon excitation ranke 0
+      0.069231989385      4419 alpha [0, 17]    beta [0, 4]    0 photon excitation ranke 0
+     -0.066710283706      2211 alpha [0, 9]    beta [0, 4]    0 photon excitation ranke 0
+state 6 energy = -7.864485620435008 <S^2>= [[1.45100527e-15]]	singlet 4
+        amplitude       position          most important determinants              number of photon
+      0.584049157676       552 alpha [0, 3]    beta [0, 1]    0 photon excitation ranke 0
+      0.584049157676       002 alpha [0, 1]    beta [0, 3]    0 photon excitation ranke 0
+      0.322476493484      1656 alpha [0, 7]    beta [0, 1]    0 photon excitation ranke 0
+      0.322476493484       006 alpha [0, 1]    beta [0, 7]    0 photon excitation ranke 0
+     -0.100739946488       556 alpha [0, 3]    beta [0, 5]    0 photon excitation ranke 0
+     -0.100739946488      1106 alpha [0, 5]    beta [0, 3]    0 photon excitation ranke 0
+     -0.082555753967       560 alpha [0, 3]    beta [0, 9]    0 photon excitation ranke 0
+     -0.082555753967      2210 alpha [0, 9]    beta [0, 3]    0 photon excitation ranke 0
+     -0.077587357949       553 alpha [0, 3]    beta [0, 2]    0 photon excitation ranke 0
+     -0.077587357949       278 alpha [0, 2]    beta [0, 3]    0 photon excitation ranke 0
+      0.076830248863       568 alpha [0, 3]    beta [0, 17]    0 photon excitation ranke 0
+state 7 energy = -7.864485620432483 <S^2>= [[1.01172535e-11]]	singlet 5
+        amplitude       position          most important determinants              number of photon
+      0.584049133939       828 alpha [0, 4]    beta [0, 1]    0 photon excitation ranke 0
+      0.584048999447       003 alpha [0, 1]    beta [0, 4]    0 photon excitation ranke 0
+     -0.322476796265       007 alpha [0, 1]    beta [0, 8]    0 photon excitation ranke 0
+     -0.322476535449      1932 alpha [0, 8]    beta [0, 1]    0 photon excitation ranke 0
+     -0.100739856419       832 alpha [0, 4]    beta [0, 5]    0 photon excitation ranke 0
+     -0.100739830036      1107 alpha [0, 5]    beta [0, 4]    0 photon excitation ranke 0
+     -0.082555749403       836 alpha [0, 4]    beta [0, 9]    0 photon excitation ranke 0
+     -0.082555716839      2211 alpha [0, 9]    beta [0, 4]    0 photon excitation ranke 0
+     -0.077587397382       829 alpha [0, 4]    beta [0, 2]    0 photon excitation ranke 0
+     -0.077587109024       279 alpha [0, 2]    beta [0, 4]    0 photon excitation ranke 0
+      0.076830328147       844 alpha [0, 4]    beta [0, 17]    0 photon excitation ranke 0
+ GOING TO COMPUTE 1-E PROPERTIES!
+                      dipole x             dipole y             dipole z      
+   0 ->    0       0.000000000000      -0.000000000000      -3.976924369896
+   0 ->    1      -0.000000000000       0.000000000000       0.000000000001
+   0 ->    2      -0.000000000000       0.000000000000      -0.769721051884
+   0 ->    3      -0.000000000000       0.000000000000      -0.598996969099
+   0 ->    4      -0.000000000001       0.000000000097      -0.000000000000
+   0 ->    5       0.000000001200      -0.000000080671      -0.000000000000
+   0 ->    6      -1.414141582172      -0.021044820088      -0.000000000000
+   0 ->    7       0.021044817601      -1.414141415397       0.000000000000
+   1 ->    1      -0.000000000000      -0.000000000000       0.067125068134
+   1 ->    2       0.000000000000      -0.000000000000       0.000000000002
+   1 ->    3       0.000000000000      -0.000000000000      -0.000000000002
+   1 ->    4      -2.118316095435      -0.034087371442      -0.000000000000
+   1 ->    5      -0.034087377459       2.118316534572       0.000000000000
+   1 ->    6      -0.000000000002       0.000000000013      -0.000000000000
+   1 ->    7       0.000000012877      -0.000000864344       0.000000000000
+   2 ->    2      -0.000000000000      -0.000000000000      -2.098454740678
+   2 ->    3       0.000000000000      -0.000000000000       2.233238333922
+   2 ->    4      -0.000000000005       0.000000000203       0.000000000000
+   2 ->    5       0.000000002521      -0.000000169226       0.000000000000
+   2 ->    6       1.264343540390       0.018815572530       0.000000000000
+   2 ->    7      -0.018815578919       1.264343968859       0.000000000000
+   3 ->    3      -0.000000000000      -0.000000000000      -1.523202584420
+   3 ->    4       0.000000000002      -0.000000000134       0.000000000000
+   3 ->    5      -0.000000001677       0.000000112504       0.000000000000
+   3 ->    6       1.111234116581       0.016537044518      -0.000000000000
+   3 ->    7      -0.016537041147       1.111233890489       0.000000000000
+   4 ->    4       0.000000000000       0.000000000000      -1.547789094034
+   4 ->    5      -0.000000000000      -0.000000000000      -0.000000000376
+   4 ->    6       0.000000000000       0.000000000000       0.000000000000
+   4 ->    7      -0.000000000000      -0.000000000000       0.000000000328
+   5 ->    5      -0.000000000000       0.000000000000      -1.547788778291
+   5 ->    6       0.000000000000      -0.000000000000       0.000000000003
+   5 ->    7      -0.000000000000       0.000000000000      -0.000000274072
+   6 ->    6      -0.000000000000       0.000000000000      -1.472733468218
+   6 ->    7       0.000000000000      -0.000000000000      -0.000000000002
+   7 ->    7      -0.000000000000       0.000000000000      -1.472733373047
+check total energy using full rdms
+   0      -8.027142306133      -8.027142306133      -0.000000000000
+   1      -7.919690011146      -7.919690011146      -0.000000000000
+   2      -7.918285146523      -7.918285146522      -0.000000000001
+   3      -7.894229641952      -7.894229641952      -0.000000000000
+   4      -7.876124464305      -7.876124464305      -0.000000000000
+   5      -7.876124464305      -7.876124464304      -0.000000000001
+   6      -7.864485620435      -7.864485620435      -0.000000000000
+   7      -7.864485620432      -7.864485620432      -0.000000000000
+check total energy using active rdms
+state      active_one           active_two           eigenvalues          total energies       error
+   0     -12.263069310257       3.318782545887      -8.027142306133      -8.027142306133      -0.000000000001
+   1     -11.869702435279       3.031436039399      -7.919690011146      -7.919690011146      -0.000000000001
+   2     -12.082821169542       3.186682541459      -7.918285146523      -7.918285146522      -0.000000000001
+   3     -12.019400903659       3.154411595733      -7.894229641952      -7.894229641952      -0.000000000001
+   4     -11.817722765228       3.016356142267      -7.876124464305      -7.876124464305      -0.000000000001
+   5     -11.817722774727       3.016356146828      -7.876124464305      -7.876124464304      -0.000000000001
+   6     -11.776946572227       2.987158076648      -7.864485620435      -7.864485620434      -0.000000000001
+   7     -11.776946712455       2.987158218258      -7.864485620432      -7.864485620432      -0.000000000000
+test average energy
+     -7.905070909404      -7.905070909404
+The requested casci level is equivalent to fci so no orbital optimization will be performed
