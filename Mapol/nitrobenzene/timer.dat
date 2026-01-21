@@ -1,0 +1,48 @@
+
+Host: CHEM9LYY31VAWS
+
+Timers On : Wed Dec 10 15:23:55 2025
+Timers Off: Mon Dec 15 11:20:27 2025
+
+Wall Time:   417392.14 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :     31.933u      3.650s     20.625w      1 calls
+Libint2ERI::Libint2ERI              :      0.067u      0.033s      0.057w      2 calls
+HF: Form core H                     :      0.017u      0.000s      0.017w      1 calls
+HF: Form S/X                        :      0.017u      0.000s      0.012w      1 calls
+HF: Guess                           :      0.067u      0.017s      0.047w      1 calls
+SAD Guess                           :      0.067u      0.017s      0.046w      1 calls
+HF: Form G                          :     19.350u     29.533s     29.268w     22 calls
+JK: D                               :      0.000u      0.000s      0.001w     22 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     22 calls
+JK: JK                              :     19.317u     29.517s     29.263w     22 calls
+PK computes JK                      :     19.317u     29.517s     29.263w     22 calls
+AIO synchronize                     :      0.000u      0.000s      0.000w      1 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     22 calls
+HF: Form F                          :      0.017u      0.000s      0.001w     22 calls
+HF: Form D                          :      0.017u      0.000s      0.001w     22 calls
+HF: DIIS                            :      0.167u      0.133s      0.151w     21 calls
+HF: Form C                          :      0.283u      0.000s      0.204w     21 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :     31.933u      3.650s     20.625w      1 calls
+| Libint2ERI::Libint2ERI            :      0.067u      0.033s      0.057w      2 calls
+HF: Form core H                     :      0.017u      0.000s      0.017w      1 calls
+HF: Form S/X                        :      0.017u      0.000s      0.012w      1 calls
+HF: Guess                           :      0.067u      0.017s      0.047w      1 calls
+| SAD Guess                         :      0.067u      0.017s      0.046w      1 calls
+HF: Form G                          :     19.350u     29.533s     29.268w     22 calls
+| JK: D                             :      0.000u      0.000s      0.001w     22 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     22 calls
+| JK: JK                            :     19.317u     29.517s     29.263w     22 calls
+| | PK computes JK                  :     19.317u     29.517s     29.263w     22 calls
+| | | AIO synchronize               :      0.000u      0.000s      0.000w      1 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     22 calls
+HF: Form F                          :      0.017u      0.000s      0.001w     22 calls
+HF: Form D                          :      0.017u      0.000s      0.001w     22 calls
+HF: DIIS                            :      0.167u      0.133s      0.151w     21 calls
+HF: Form C                          :      0.283u      0.000s      0.204w     21 calls
+
+**************************************************************************************
