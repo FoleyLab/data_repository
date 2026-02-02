@@ -1,0 +1,3 @@
+2026-01-27:09:44:29,859 INFO     [psi4.driver.task_planner:285] PLANNING Atomic:  keywords={'REFERENCE': 'RHF', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2026-01-27:09:44:29,860 INFO     [psi4.driver.driver:788] Compute properties(): method=scf, basis=6-311g*, molecule=meta_intermediate, nre=739.2118425893339
+2026-01-27:09:44:34,401 INFO     [psi4.driver.driver:791] Return properties(): -3006.3003607306127
